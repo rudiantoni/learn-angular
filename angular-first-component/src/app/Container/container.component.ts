@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-container',
-    templateUrl: './container.component.html',
-    styleUrls: ['./container.component.css']
+    templateUrl: './container.component.html'
 })
 export class ContainerComponent {
 
