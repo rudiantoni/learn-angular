@@ -228,11 +228,7 @@ Isto pode ser alcançado através de:
 
 Neste caso, o fluxo ocorre da view template html para a classe do componente.
 
-### Two way data binding (conexão de dados bidirecional)
-
-Um Two way data binding conecta dados da classe do componente para a view template html e da view template html para a classe do componente. Esta é uma combinação do property binding e o event binding.
-
-### String interpolation (interpolação de string)
+#### String interpolation (interpolação de string)
 
 String interpolation no Angular é usado para conectar dados da classe do compoenent para a view template. Isso significa que os dados fluem do componente para a view.
 
@@ -271,3 +267,47 @@ View:
 <h2>{{ 23+56+32-53 }}</h2>
 <h2>{{ getSlogan() }}</h2>
 ```
+
+#### Property binding (conexão de propriede)
+
+O property binding é usado para conectar uma propriedade (atributo) de um elemento HTML a uma propriedade ou método de uma classe de componente.
+
+O property binding não é limitado a apenas propriedades, você pode utilizar qualquer método ou propriedade disponível no componente, bem como executar qualquer expressão válida para o typescript desde que esteja dentro de aspas duplas (""):
+
+- Property binding: `[property] = data`
+
+Componente:
+
+```javascript
+export class HeaderComponent {
+  source: string = '/assets/shopping.jpg'
+}
+```
+
+View:
+
+```html
+<img [src]="source" height="240" width="320" />
+```
+
+Outro exemplo de property binding:
+
+Componente:
+
+```javascript
+export class HeaderComponent {
+  displayNotification: boolean = true;
+}
+```
+
+View:
+
+```html
+<div class="alert alert-success" [hidden]="!displayNotification">
+  <p>This website uses cookies to provide better user experience.</p>
+</div>
+```
+
+### Two way data binding (conexão de dados bidirecional)
+
+Um Two way data binding conecta dados da classe do componente para a view template html e da view template html para a classe do componente. Esta é uma combinação do property binding e o event binding.
