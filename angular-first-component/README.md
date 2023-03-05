@@ -1,29 +1,6 @@
-# AngularFirstComponent
+# angular-first-component
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
-
-- Project generated with `ng new`
-
-> Using Node version 18.12.1 LTS (hydrogen)
-
-## Initial steps
-
-- Requirements
-  - Linux Ubuntu or any other Debian based distro.
-  - Softwares: curl, nvm, npm, node 18+ and angular cli (ng) 15+.
-    - If you some of them are not yet installed, follow these instructions:
-      - Install curl: `sudo apt install curl`
-      - Install NVM: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-        - Reopen shell after this installation
-      - Install NPM: `sudo apt install npm`
-      - Install Node 18.12.1: `nvm install 18.12.1`
-      - Install Angular CLI: `npm install -g @angular/cli`
-        - Reference: [https://angular.io/](https://angular.io/)
-
-## Before starting
-
-- Make sure you are using Node 18.12.1: `nvm use 18.12.1`
-- Install dependencies: `npm install`
 
 ## Development server
 
