@@ -18,7 +18,6 @@
   - Nomes de componente: kebab-case
   - Classes: PascalCase
   - Propriedade selector da anotação @Component: kebab case precedido por app (app-component-name)
-
 - src/styles.css: estilização do componente global
 - Para limpar a página inicial, esvazie o arquivo app.component.html.
 - Lembrar: todos os comandos devem ser executados na pasta raiz do projeto, que é a pasta pai da src, ou o que for especificado no arquivo angular.json, com a propriedade projects.\[projectName\].root.
@@ -375,3 +374,42 @@ View:
 Assim assim que o componente for renderizado, o elemento input será populado com os dados iniciais da variável, mas ela tambem será alterada quando o elemento input for alterado no cliente.
 
 Então, esse valor é tanto alterado pelo componente quando pela view.
+
+## O que são directives (diretivas)
+
+Diretivas são simplesmente instruções para o DOM.
+
+Os componentes são um exemplo de diretivas.
+
+Da mesma maneira que os componentes, as diretivas também podem ser usadas como elementos HTML, atributos HTML ou classes CSS por causa de seus seletores.
+
+No componente a boa prática recomendada é usar o seletor de elemento HTML, já nas diretivas é recomendado o uso como atributo HTML.
+
+Nós podemos criar nossas própries diretivas, mas o Angular nos fornece um conjunto padrão: ngIf, ngFor, ngClass, ngStyle, etc.
+
+View:
+
+```html
+<div changeDivGreen >This is a div element.</div>
+```
+
+Directive:
+
+```javascript
+@Directive({
+  selector: '[changeDivGreen]'
+})
+export class ChangeDivGreen {
+
+}
+```
+
+Uma diretiva pode ser classificada em 2 tipos: structural directive e attribute directive.
+
+### Structural directive (diretiva de estrutura)
+
+Altera a view de uma webpage ao adicionar ou remover elementos DOM de uma página web.
+
+### Attribute directive (diretiva de atributo)
+
+Usado como um atributo em um elemento existente de uma webpage existente para alterar sua exibição e comportamento.
