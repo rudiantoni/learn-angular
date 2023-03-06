@@ -410,6 +410,67 @@ Uma diretiva pode ser classificada em 2 tipos: structural directive e attribute 
 
 Altera a view de uma webpage ao adicionar ou remover elementos DOM de uma página web.
 
+Todas as diretivas estruturais devem ser precedidas por um asterisco (\*) quando forem declaradas na view. Ex.: \*ngFor.
+
 ### Attribute directive (diretiva de atributo)
 
 Usado como um atributo em um elemento existente de uma webpage existente para alterar sua exibição e comportamento.
+
+## ngFor directive
+
+A diretiva ngFor é uma diretiva estrutural. Isso significa que ngFor manipula o DOM através da adição ou remoção de elementos.
+
+A diretiva ngFor é usada para repetir uma parte de um template HTML uma vez para cada item de uma lista iterável.
+
+O elemento que se repete na view HTML é o elemento onde o ngFor está presente.
+
+```javascript
+<div *ngFor="let item of [1,2,3]" >
+    <p>Number is: {{ item }}</p>
+</div>
+```
+
+Também é possível iterar em uma lista de objetos:
+
+```javascript
+<div *ngFor="let item of [{nm: 1, lt: 'a'},{nm: 2, lt: 'b'},{nm: 3, lt: 'c'}]" >
+    <p>Number is: {{ item.nm }}, Letter is {{ item.lt }}</p>
+</div>
+```
+
+Para iterar em listas do componente:
+
+Componente:
+
+```javascript
+products = [
+  {nm: 1, lt: 'a'},
+  {nm: 2, lt: 'b'},
+  {nm: 3, lt: 'c'},
+  {nm: 4, lt: 'd'},
+  {nm: 5, lt: 'e'}
+]
+```
+
+View:
+
+```html
+<div *ngFor="let p of products">
+  <p>Number is: {{ item.nm }}, Letter is {{ item.lt }}</p>
+</div>
+```
+
+Se você precisar do índice da iteração na view, é possível assim:
+
+```html
+<div *ngFor="let p of products; let i = index">
+  <p>Index: {{ i }}</p>
+  <p>Number is: {{ item.nm }}, Letter is {{ item.lt }}</p>
+</div>
+```
+
+## ngStyle directive
+
+A diretiva ngStyle é uma diretiva de atributo, ou seja ela altera a exibição e/ou o comportamento de um elemento no DOM.
+
+A diretiva ngStyle é usada para definir uma estilização CSS dinamicamente para um elemento HTML baseada em uma dada expressão typescript

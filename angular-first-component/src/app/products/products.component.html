@@ -1,0 +1,29 @@
+<!-- <div *ngFor="let item of [1,2,3,4,5]" >
+    <p>Number is: {{ item.nm }}, Letter is {{ item.lt }}</p>
+</div> -->
+
+<!-- <div *ngFor="let item of [{nm: 1, lt: 'a'},{nm: 2, lt: 'b'},{nm: 3, lt: 'c'},{nm: 4, lt: 'd'},{nm: 5, lt: 'e'},]" >
+    <p>Number is: {{ item.nm }}, Letter is {{ item.lt }}</p>
+</div> -->
+
+
+<div *ngFor="let p of products; let i = index">
+    <p>{{ i }}</p>
+    <div class="product-container">
+        <div class="image-container"><img [src]="p.image" alt="" style="max-height: 50px; max-width: 50px;" /></div>
+        <div>
+            <div class="name-container">
+                <h6>{{ p.name }}</h6>
+            </div>
+            <div class="detail-container">
+                <div class="details">{{ p.available }}</div>
+                <div class="details"><b>Price:</b>${{ p.price }}</div>
+                <div class="details"><b>Color:</b>{{ p.color }}</div>
+            </div>
+        </div>
+        <div class="options">
+            <button class="btn btn-success">Show Details</button>
+            <button class="btn btn-warning">Buy Now</button>
+        </div>
+    </div>
+</div>
