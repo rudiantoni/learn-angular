@@ -473,4 +473,45 @@ Se você precisar do índice da iteração na view, é possível assim:
 
 A diretiva ngStyle é uma diretiva de atributo, ou seja ela altera a exibição e/ou o comportamento de um elemento no DOM.
 
-A diretiva ngStyle é usada para definir uma estilização CSS dinamicamente para um elemento HTML baseada em uma dada expressão typescript
+A diretiva ngStyle é usada para definir uma estilização CSS dinamicamente para um elemento HTML baseada em uma dada expressão typescript.
+
+No exemplo abaixo, temos uma diretiva ngFor iterando sobre a variável producs do componente, que é uma lista de objetos. Segundo o código da diretiva ngStyle, toda vez que a propriedade available do objeto iterado for exatamente igual a Available, o valor da propriedade css será green, caso o contrário será red.
+
+```html
+<div *ngFor="let p of products; let i = index">
+  <div [ngStyle]="{color: p.available === 'Available' ? 'green' : 'red'}" >{{ p.available }}</div>
+</div>
+```
+
+## ngIf directive
+
+A diretiva ngIf é uma diretiva estrutural. Isso significa que ngFor manipula o DOM através da adição ou remoção de elementos.
+
+A diretiva ngIf é usada para adicionar ou remover elementos de uma página view baseada em uma dada condição.
+
+Se a condição atribuída ao ngIf retornar true, o elemento no qual o ngIf está sendo usado será adicionado a webpage. Caso contrário, se a condição retornar false, ele removerá o elemento da webpage.
+
+No exemplo abaixo, o elemento span só será inserido na página quando a variável searchValue (do componente) não for vazia e não conter apenas espaços em branco.
+
+```javascript
+searchValue: string = '';
+```
+
+```html
+<span *ngIf="searchValue !== '' && searchValue.trim() !== ''">You searched for "{{ searchValue }}"</span>
+```
+
+Com o uso do elemento ng-template, se torna possível indicar um elemento que será renderizado caso a condição do ngIf seja falsa e o elemento em que ele está não renderize. Para isso, basta identificarmos um elemento ng-template com um nome usando a cerquilha (\#) e chamar esse nome na condição else no ngIf.
+
+No exemplo abaixo, quando a variável available for Available, o ngIf do botao Buy Now será verdadeiro, e ele será renderizado. Agora, quando a variável available retornar um valor diferente de Available, o ngIf será falso e será chamado o else, que nesse caso está ancorado ao elemento ng-template através do identificador notifyMe, e renderizará todo o conteúdo do ng-template notifyMe, que nesse caso é só o botão Notify me.
+
+```javascript
+available: string = 'Not Available';
+```
+
+```html
+<button class="btn btn-warning" *ngIf="available === 'Available'; else notifyMe">Buy Now</button>
+<ng-template #notifyMe >
+  <button class="btn btn-danger">Notify me</button>
+</ng-template>
+```
