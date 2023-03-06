@@ -515,3 +515,33 @@ available: string = 'Not Available';
   <button class="btn btn-danger">Notify me</button>
 </ng-template>
 ```
+
+## ngClass directive
+
+A diretiva ngClass é uma diretiva de atributo, ou seja ela altera a exibição e/ou o comportamento de um elemento no DOM.
+
+A diretiva ngClass é usada para adicionar uma classe CSS dinamicamente para um elemento em uma webpage.
+
+Passando a classe como uma propriedade de um objeto (por isso que classes com hífens precisam ser strings aqui), o valor seria a condição. Se a condição for verdadeira, a classe passada será atribuída ao elemento, caso contrário não.
+
+```css
+.change-background {
+    background-color: #FAD7A0;
+}
+```
+
+```javascript
+export class SearchComponent {
+  searchValue: string = '';
+}
+```
+
+```html
+<div class="normal-div" [ngClass]="{'change-background': searchValue !== '' && searchValue.trim() !== ''}">
+</div>
+```
+
+Nesse caso, como usamos uma classe CSS como hífen, precisamos adicioná-lo como uma string, se você não quiser fazer isso, deve mudar o nome da classe. É recomendado usar camelCase nesse caso.
+
+## What is child component
+
