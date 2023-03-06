@@ -211,7 +211,7 @@ O data binding pode ser classificado de duas maneiras: one way data binding ou t
 
 ### One way data binding (conexão de dados unidirecional)
 
-Um one Way data binding ocorre quando podemos acessar uma propriedade da classe do componente no view template html.
+Um one way data binding ocorre quando podemos acessar uma propriedade da classe do componente no view template html.
 
 Isto pode ser alcançado através de:
 
@@ -228,7 +228,7 @@ Isto pode ser alcançado através de:
 
 Neste caso, o fluxo ocorre da view template html para a classe do componente.
 
-#### String interpolation (interpolação de string)
+#### String interpolation (interpolação de string): from component to view
 
 String interpolation no Angular é usado para conectar dados da classe do compoenent para a view template. Isso significa que os dados fluem do componente para a view.
 
@@ -268,7 +268,7 @@ View:
 <h2>{{ getSlogan() }}</h2>
 ```
 
-#### Property binding (conexão de propriede)
+#### Property binding (conexão de propriede): from component to view
 
 O property binding é usado para conectar uma propriedade (atributo) de um elemento HTML a uma propriedade ou método de uma classe de componente.
 
@@ -308,6 +308,70 @@ View:
 </div>
 ```
 
+#### Event binding (conexão de eventos): from view to component
+
+O event binding nos permite conectar os eventos de uma página da web para propriedades ou métodos de uma classe de componente. Usando o event binding nós podemos passar dados da view para o componente.
+
+- Event binding: `(data) = "expression"`
+
+Component:
+
+```javascript
+export class SearchComponent {
+  searchValue: string = '';
+  changeSearchValue(eventData: Event) {
+    this.searchValue = (<HTMLInputElement>eventData.target).value;
+    console.log(this.searchValue);
+  }
+}
+```
+
+View:
+
+```htm
+<input type="text" (input)="changeSearchValue($event)" />
+```
+
 ### Two way data binding (conexão de dados bidirecional)
 
-Um Two way data binding conecta dados da classe do componente para a view template html e da view template html para a classe do componente. Esta é uma combinação do property binding e o event binding.
+Um two way data binding conecta dados da classe do componente para a view template html e da view template html para a classe do componente. Esta é uma combinação do property binding e o event binding.
+
+Para poder usar o two way data binding, é necessário usar a diretiva ngModel dentro da view, sendo assim, só é possível utilizá-lo importando o FormsModule no módulo do componente (app.module.ts) e o configurando como import:
+
+Módulo:
+
+```javascript
+// ...
+import { FormsModule } from '@angular/forms';
+
+@NgModule({
+  // ...
+  imports: [
+    // ...
+    FormsModule
+  ],
+  // ...
+})
+export class AppModule { }
+```
+
+Componente:
+
+```javascript
+export class SearchComponent {
+  searchValue: string = 'Mobile';
+  changeSearchValue(eventData: Event) {
+    this.searchValue = (<HTMLInputElement>eventData.target).value
+  }
+}
+```
+
+View:
+
+```html
+<input type="text" [(ngModel)]="searchValue" />
+```
+
+Assim assim que o componente for renderizado, o elemento input será populado com os dados iniciais da variável, mas ela tambem será alterada quando o elemento input for alterado no cliente.
+
+Então, esse valor é tanto alterado pelo componente quando pela view.
