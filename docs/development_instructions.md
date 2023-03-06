@@ -1,10 +1,33 @@
 # Development instructions for Angular
 
 - Conteúdo
-  - [Create project](#create-project)
-  - [Development notes](#development-notes)
-  - [Creating a new component manually](#creating-a-new-component-manually)
-  - [Creating a new component using Angular CLI](#creating-a-new-component-using-angular-cli)
+  - [Criar projeto](#criar-projeto)
+  - [Observações de desenvolvimento](#observações-de-desenvolvimento)
+  - [Criar um novo componente manualmente](#criar-um-novo-componente-manualmente)
+  - [Criar um novo componente usando o Angular CLI](#criar-um-novo-componente-usando-o-angular-cli)
+  - [Propriedade do @Component: template](#propriedade-do-component-template)
+  - [Propriedade do @Component: styles](#propriedade-do-component-styles)
+  - [Usando Bootstrap com Angular](#usando-bootstrap-com-angular)
+  - [Propriedade do @Component: selector](#propriedade-do-component-selector)
+    - [Seletor como atributo HTML](#seletor-como-atributo-html)
+    - [Seletor como classe CSS](#seletor-como-classe-css)
+  - [O que é data binding (conexão de dados)](#o-que-é-data-binding-conexão-de-dados)
+    - [One way data binding (conexão de dados unidirecional)](#one-way-data-binding-conexão-de-dados-unidirecional)
+      - [String interpolation (interpolação de string): do componente para a view](#string-interpolation-interpolação-de-string-do-componente-para-a-view)
+      - [Property binding (conexão de propriede): do componente para a view](#property-binding-conexão-de-propriede-do-componente-para-a-view)
+      - [Event binding (conexão de eventos): da view para o componente](#event-binding-conexão-de-eventos-da-view-para-o-componente)
+    - [Two way data binding (conexão de dados bidirecional)](#two-way-data-binding-conexão-de-dados-bidirecional)
+  - [O que são directives (diretivas)](#o-que-são-directives-diretivas)
+    - [Structural directive (diretiva de estrutura)](#structural-directive-diretiva-de-estrutura)
+    - [Attribute directive (diretiva de atributo)](#attribute-directive-diretiva-de-atributo)
+  - [ngFor directive](#ngfor-directive)
+  - [ngStyle directive](#ngstyle-directive)
+  - [ngIf directive](#ngif-directive)
+  - [ngClass directive](#ngclass-directive)
+  - [O que é um child component (componente filho)](#o-que-é-um-child-component-componente-filho)
+    - [Custom event binding (conexão de evento personalizado)](#custom-event-binding-conexão-de-evento-personalizado)
+      - [Custom property binding: @Input (dados do componente pai para o filho)](#custom-property-binding-input-dados-do-componente-pai-para-o-filho)
+      - [Custom event binding: @Output (dados do componente filho para o pai)](#custom-event-binding-output-dados-do-componente-filho-para-o-pai)
 
 ## Criar projeto
 
@@ -140,7 +163,7 @@ Atualize a propriedade projects.\[projectName\].architect.build.options.styles n
 }
 ```
 
-## ## Propriedade do @Component: selector
+## Propriedade do @Component: selector
 
 Normalmente no atributo selector, nós usamos uma tag HTML, mas além disso, podemos usar atributos HTML e classes CSS como selectores de componente.
 
@@ -227,7 +250,7 @@ Isto pode ser alcançado através de:
 
 Neste caso, o fluxo ocorre da view template html para a classe do componente.
 
-#### String interpolation (interpolação de string): from component to view
+#### String interpolation (interpolação de string): do componente para a view
 
 String interpolation no Angular é usado para conectar dados da classe do compoenent para a view template. Isso significa que os dados fluem do componente para a view.
 
@@ -267,7 +290,7 @@ View:
 <h2>{{ getSlogan() }}</h2>
 ```
 
-#### Property binding (conexão de propriede): from component to view
+#### Property binding (conexão de propriede): do componente para a view
 
 O property binding é usado para conectar uma propriedade (atributo) de um elemento HTML a uma propriedade ou método de uma classe de componente.
 
@@ -307,7 +330,7 @@ View:
 </div>
 ```
 
-#### Event binding (conexão de eventos): from view to component
+#### Event binding (conexão de eventos): da view para o componente
 
 O event binding nos permite conectar os eventos de uma página da web para propriedades ou métodos de uma classe de componente. Usando o event binding nós podemos passar dados da view para o componente.
 
@@ -409,6 +432,8 @@ Uma diretiva pode ser classificada em 2 tipos: structural directive e attribute 
 ### Structural directive (diretiva de estrutura)
 
 Altera a view de uma webpage ao adicionar ou remover elementos DOM de uma página web.
+
+Não é possível usar mais de uma diretiva estrutural em um mesmo elemento HTML.
 
 Todas as diretivas estruturais devem ser precedidas por um asterisco (\*) quando forem declaradas na view. Ex.: \*ngFor.
 
@@ -617,3 +642,78 @@ Também é possível usar um alias, para isso basta adicionar o alias como parâ
 ```
 
 #### Custom event binding: @Output (dados do componente filho para o pai)
+
+Nós podemos passar dados de um componente filho para um componente pai usando o decorador @Output.
+
+Nós também o chamamos de custom event binding porque aqui nós conectamos eventos personalizados de uma classe de um componente pai com a propriedade ou método de uma classe de um componente filho.
+
+Para isso, imaginemos o seguinte caso, temos 2 componentes: app-courses e app-filter. O componente app-filter está dentro do componente app-courses, portanto, o componente app-filter é filho do componente app-courses, e o componente app-courses é pai do componente app-filter.
+
+Primeiro, vamos criar dentro da view filho, um two way data binding com ngModel. Isso serve para que os inputs type radio iniciem com um valor padrão definido pelo componente da view, e também possam ser alterados pela view. Ou seja, se você não quisesse definir um valor inicial, poderíamos apenas ter usado um property binding. Mas nesse caso o filtro não ocorreria ao carregar a página.
+
+Lembre-se, para usar o ngModel deve ser feito a importação no app.module.ts do FormsModule, e ele deve ser inserido no array de imports.
+
+Componente filho:
+
+```javascript
+selectedRadioButtonValue: string = 'All';
+```
+
+View filho:
+
+```html
+<input type="radio" name="filter" value="All" [(ngModel)]="selectedRadioButtonValue" />
+<input type="radio" name="filter" value="Free" [(ngModel)]="selectedRadioButtonValue" />
+<input type="radio" name="filter" value="Premium" [(ngModel)]="selectedRadioButtonValue" />
+```
+
+Agora, devemos criar um evento no componente filho e definir o tipo de dado que o evento vai emitir, nesse caso é string. Também devemos decorá-lo com @Output:
+
+Componente filho:
+
+```javascript
+@Output() filterRadioButtonSelectionChanged: EventEmitter<string> = new EventEmitter<string>();
+```
+
+Agora, ainda no componente filho, devemos criar um método que será o responsável por emitir, ou disparar o evento. Quando ele for emitido, serão enviados alguns dados com ele, que será a string da variável selectedRadioButtonValue previamente utilizada:
+
+> Foi deixado um console.log() para que seja possível testar antes de continuarmos.
+
+Componente filho:
+
+```javascript
+onRadioButtonSelectionChanged() {
+  this.filterRadioButtonSelectionChanged.emit(this.selectedRadioButtonValue)
+  console.log(this.selectedRadioButtonValue)
+}
+```
+
+Agora, precisamos indicar quando o método onRadioButtonSelectionChanged será chamado, neste caso, ele será chamado quando alterar-mos os radio buttons:
+
+View filho:
+
+```html
+<input type="radio" name="filter" value="All" [(ngModel)]="selectedRadioButtonValue" (change)="onRadioButtonSelectionChanged()" />
+<input type="radio" name="filter" value="Free" [(ngModel)]="selectedRadioButtonValue" (change)="onRadioButtonSelectionChanged()" />
+<input type="radio" name="filter" value="Premium" [(ngModel)]="selectedRadioButtonValue" (change)="onRadioButtonSelectionChanged()" />
+```
+
+No componente pai, vamos criar uma propriedade apenas para atribuir o valor que o evento enviar, e um método que será chamado quando esse evento for disparado:
+
+Componente pai:
+
+```javascript
+selectedCourseFilterRadioButton: string = 'All';
+
+onFilterRadioButtonChanged(data: string) {
+  this.selectedCourseFilterRadioButton = data;
+}
+```
+
+Por último, na view pai, vamos fazer o bind do evento criado no componente filho, para o método que acabamos de criar no componente pai passando os dados do evento, exatamente da mesma maneira que fazemos o bind de um evento HTML:
+
+View pai:
+
+```html
+<app-filter (filterRadioButtonSelectionChanged)="onFilterRadioButtonChanged($event)"></app-filter>
+```

@@ -54,6 +54,8 @@ export class CoursesComponent {
     }
   ]
 
+  selectedCourseFilterRadioButton: string = 'All';
+
   getAllCourses() {
     return this.courses.length;
   }
@@ -64,5 +66,10 @@ export class CoursesComponent {
 
   getPremiumCourses() {
     return this.courses.filter(item => item.type === 'Premium').length;
+  }
+
+  onFilterRadioButtonChanged(data: string) {
+    this.selectedCourseFilterRadioButton = data;
+    // console.log('Alterado filtro no componente pai: ', data)
   }
 }
