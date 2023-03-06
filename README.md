@@ -1,33 +1,34 @@
 # learn-angular
 
-This repository contains projects referring to my personal learning about the Angular framework.
+Este repositório contém projetos referentes a minha aprendizagem pessoal sobre o framework Angular.
 
-## Course 1
+## Curso 1
 
-This course has a most hands-on focused approach. So there's no much theory, but there are important annotations inside the [docs](./docs/) folder.
+Este curso tem uma abordagem mais prática. Mas mesmo assim há uma quantidade significativa de teoria.
 
-All projects uses Node version 18.12.1 LTS (hydrogen) and were generated with Angular CLI 15.2.1.
+Todos os projetos foram construídos usando Node v18.12.1 LTS (hydrogen) e Angular CLI 15.2.1.
 
-There are some requirements in order to make the projects run, they are:
+Há alguns requisitos para executar os projetos:
 
-- Linux Ubuntu or any other Debian based distro
-  - You can maybe try to run it in Windows with the aid of Git Bash, but I cant' test it for now
-    - Softwares: curl, nvm, npm, node 18+ and angular cli (ng) 15+.
-      - If you some of them are not yet installed, follow these instructions:
-      - Install curl: `sudo apt install curl`
-      - Install NVM: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-        - Reopen shell after this installation
-      - Install NPM: `sudo apt install npm`
-      - Install Node 18.12.1: `nvm install 18.12.1`
-      - Install Angular CLI: `npm install -g @angular/cli`
-      - Reference: [https://angular.io/](https://angular.io/)
+- Sistema operacional: Linux Ubuntu ou outra distribuição Linux baseada em Debian
+  - Você pode tentar executá-lo no Windows com a ajuda do Git Bash, mas eu não posso testar por enquanto.
+- Softwares: curl, nvm, npm, node 18+ and angular cli (ng) 15+.
+  - Se quiser saber como instalar cada um deles, siga essas instruções:
+  - Instalar curl: `sudo apt install curl`
+  - Instalar NVM: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
+    - Reabra o terminal após essa instalação
+  - Instalar npm: `sudo apt install npm`
+  - Instalar Node v18.12.1: `nvm install 18.12.1`
+  - Instalar Angular CLI: `npm install -g @angular/cli`
+  - Referência: [https://angular.io/](https://angular.io/)
+- Clone o projeto.
+- Certifique-se de estar usando o Node v18.12.1: `nvm use 18.12.1`
+- Instale as dependências: `npm install`
+- Inicie o servidor: `ng serve`
 
-- Clone the project.
-- Make sure you are using Node 18.12.1: `nvm use 18.12.1`
-- Install dependencies: `npm install`
-- Start server: `ng serve`
+Todos os projetos desenvolvidos possuem o objetivo único de aprender e praticar. Aqui segue uma lista do conteúdo teórico criado e cada projeto relacionado a ele:
 
-All the developed projects has only the goal of learning and practicing. There's a list of each developed project and their objectives:
-
-- [angular-first](./angular-first/): First Angular project created. Demonstrates only basic stuff like rewriting the main page and a quick data binding demo.
-- [angular-first-component](./angular-first-component/): (...under development...)
+- Conteúdo teórico
+  - [Angular básico](./course_01/docs/01_angular_basics.md) [Projeto: angular-first](./course_01/angular-first/)
+  - [Componentes](./course_01/docs/02_components.md) [Projeto: angular-first-component](./course_01/angular-first-component/)
+  - [](xxx) [Projeto: custom-binding](./course_01/custom-binding/)
