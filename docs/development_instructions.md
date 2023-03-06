@@ -543,5 +543,77 @@ export class SearchComponent {
 
 Nesse caso, como usamos uma classe CSS como hífen, precisamos adicioná-lo como uma string, se você não quiser fazer isso, deve mudar o nome da classe. É recomendado usar camelCase nesse caso.
 
-## What is child component
+## O que é um child component (componente filho)
 
+Quando temos um componente dentro de outro, temos uma relação de componente pai e filho.
+
+Ao componente de dentro, o chamamos de filho, portanto, ao de fora, o chamamos de pai.
+
+### Custom event binding (conexão de evento personalizado)
+
+Nós podemos passar dados da classe do componente para a view template e vice-versa usando property binding, string interpolation e event binding.
+
+Nós também podemos passar dados de um componente pai para um componente filho e vice-versa. Usamos os decoradores @Input e @Output.
+
+O decorador @Input serve para passar dados de um componente pai para um componente filho.
+
+O decorador @Output serve para passar dados de um componente filho para um componente pai.
+
+#### Custom property binding: @Input (dados do componente pai para o filho)
+
+Nós podemos passar dados de um componente pai para um componente filho usando o decorador @Input.
+
+Nós também o chamamos de custom property binding porque aqui nós conectarmos propriedades personalizadas de uma classe de um componente filho com a propriedade ou método de uma classe de um componente pai.
+
+Para isso, imaginemos o seguinte caso, temos 2 componentes: app-courses e app-filter. O componente app-filter está dentro do componente app-courses, portanto, o componente app-filter é filho do componente app-courses, e o componente app-courses é pai do componente app-filter.
+
+Primeiro, devemos decorar as propriedades na classe do componente filho que receberão os dados do pai.
+
+Componente filho:
+
+```javascript
+@Input() all: number = 0;
+@Input() free: number = 0;
+@Input() premium: number = 0;
+```
+
+Agora, vamos criar os métodos no componente pai que retornarão os valores para o componente filho.
+
+Componente pai:
+
+```javascript
+getAllCourses() {return 9}
+getFreeCourses() {return 3}
+getPremiumCourses() {return 6}
+```
+
+Agora, faremos o custom property binding. Neste caso, vamos fazer o bind das propriedades all, free e premium do componente filho, com os respectivos métodos da classe pai. Para isso, vamos na view template do componente pai, e vamos fazer o bind onde o componente filho está sendo chamado. Aqui é onde fazemos as conexões, as propriedades do elemento filho ficam sendo atributos do HTML com property binding (envoltos por \[\]), e o seu valor fica sendo uma expressão válida do typescript, que neste caso são os métodos da classe pai.
+
+View pai:
+
+```html
+<div>
+  <app-filter
+    [all]="getAllCourses()"
+    [free]="getFreeCourses()"
+    [premium]="getPremiumCourses()">
+  </app-filter>
+</div>
+```
+
+Também é possível usar um alias, para isso basta adicionar o alias como parâmetro do decorador @Input, e fazer property binding para esse novo alias na view do pai:
+
+```html
+<div>
+  <app-filter
+    [total]="getAllCourses()"
+  >
+  </app-filter>
+</div>
+```
+
+```javascript
+@Input('total') all: number = 0;
+```
+
+#### Custom event binding: @Output (dados do componente filho para o pai)
