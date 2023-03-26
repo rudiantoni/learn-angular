@@ -328,7 +328,7 @@ export class SearchComponent {
 
 View:
 
-```htm
+```html
 <input type="text" (input)="changeSearchValue($event)" />
 ```
 
