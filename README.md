@@ -1,6 +1,6 @@
 # learn-angular
 
-Este repositório contém projetos referentes a minha aprendizagem pessoal sobre o framework Angular.
+Este repositório contém conteúdos teóricos e projetos referentes a minha aprendizagem pessoal sobre o framework Angular.
 
 ## Curso 1
 
@@ -32,3 +32,25 @@ Todos os projetos desenvolvidos possuem o objetivo único de aprender e praticar
   - [Angular básico](./course_01/docs/01_angular_basics.md) [Projeto: angular-first](./course_01/angular-first/)
   - [Componentes](./course_01/docs/02_components.md) [Projeto: angular-first-component](./course_01/angular-first-component/)
   - [](xxx) [Projeto: custom-binding](./course_01/custom-binding/)
+
+
+## Curso 2
+
+Este curso foi feito com base no conteúdo disponibilizado pelo curso Custo de Angular 2 (v17+) Typescript do Básico ao Avançado, disponibilizado através do site Udemy, criado por Dener Troquatte.
+
+Todos os comandos, quando não especificados, foram realizados em Linux. Leia atentamente o que as instruções indicam para que você possa realizá-la em outro sistema operacional.
+
+- Site: [Udemy](https://www.udemy.com/)
+- Curso: [Curso de Angular 2 (v17+) Typescript do Básico ao Avançado](https://www.udemy.com/course/curso-de-angular/)
+- Criador(es)
+  - [Dener Troquatte](https://www.udemy.com/user/dener-troquatte-3/)
+
+### Conteúdo
+
+1. Instruções para o curso
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41072048)\] [1.1. Não pule essa aula](arquivomd)
+
+x. nome_secao
+  - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
+
+TODO: atualizar arquivos MD
