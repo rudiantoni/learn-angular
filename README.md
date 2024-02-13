@@ -65,6 +65,13 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056648)\] 3.6. Build
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057646)\] 3.7. Mais sobre
 
+4. Componentes
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056658)\] 4.1. Introdução
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056660)\] 4.2. Entendendo o componente
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056662)\] 4.3. Criando um componente
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056668)\] 4.4. Final
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057808)\] 4.5. Mais sobre
+
 
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
