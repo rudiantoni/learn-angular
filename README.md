@@ -48,9 +48,26 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 ### Conteúdo
 
 1. Instruções para o curso
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41072048)\] [1.1. Não pule essa aula](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41072048)\] 1.1. Não pule essa aula
+
+2. Iniciando com Angular
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056556)\] 2.1. O que é e para que serve o Angular
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056568)\] 2.2. Conhecendo a Documentação
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056534)\] 2.3. Importante
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056574)\] 2.4. Versionamento
+
+3. Instalação do Angular
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056580)\] 3.1. Recursos da próxima aula
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056620)\] [3.2. Instalando os recursos](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056628)\] 3.3. Angular CLI
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056638)\] [3.4. CLI](arquiovmd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056642)\] 3.5. Arquitetura
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056648)\] 3.6. Build
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057646)\] 3.7. Mais sobre
+
 
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
+  - \[[Ref](link)\] x.x. nome_aula
 
 TODO: atualizar arquivos MD
