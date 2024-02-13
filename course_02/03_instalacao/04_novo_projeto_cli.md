@@ -9,6 +9,7 @@ Diretório de arquivos: [03_arquivos](./03_arquivos/)
 - Conteúdo
   - [Criando novo projeto](#criando-novo-projeto)
   - [Executando o projeto](#executando-o-projeto)
+  - [Buildando o projeto](#buildando-o-projeto)
 
 ### Criando novo projeto
 [[Topo]](#)<br />
@@ -39,3 +40,9 @@ Será necessário escolher algumas opções:
 
 - Abrir o terminal e, estando na raiz do projeto, executar o seguinte comando:
   - `ng serve`
+
+### Buildando o projeto
+[[Topo]](#)<br />
+
+- Abrir o terminal e, estando na raiz do projeto, executar o seguinte comando:
+  - `ng build`
