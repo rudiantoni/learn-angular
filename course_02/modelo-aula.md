@@ -1,4 +1,4 @@
-# Oracle Certified Associate Java Programmer (OCAJP) 1Z0-808
+# Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
 ## x.x. (nome do capítulo, aula, nome do vídeo)
 [[Home - Curso 1]](../../README.md#curso-1)<br />
