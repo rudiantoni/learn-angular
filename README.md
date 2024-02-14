@@ -72,6 +72,10 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056668)\] 4.4. Final
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057808)\] 4.5. Mais sobre
 
+5. Estilos CSS
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056674)\] 5.1. Introdução
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056680)\] 5.2. Seletores especiais
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057850)\] 5.3. Mais sobre
 
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
