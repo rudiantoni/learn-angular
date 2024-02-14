@@ -77,6 +77,18 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056680)\] [5.2. Seletores especiais](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057850)\] 5.3. Mais sobre
 
+6. Template
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056686)\] 6.1. Introdução
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056688)\] 6.2. Text interpolation
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056692)\] 6.3. Property binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056698)\] 6.4. Attribute binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056706)\] 6.5. Class and style binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056710)\] 6.6. Event binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056714)\] 6.7. Two-way binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056720)\] 6.8. NgClass e NgStyle
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056726)\] 6.9. Template variables
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057892)\] 6.10. Mais sobre
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
