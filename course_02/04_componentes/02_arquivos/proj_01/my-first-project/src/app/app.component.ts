@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
   template: `
     <!-- <router-outlet /> -->
     <h1>Curso de Angular</h1>
-    <h2>Componentes</h2>
-  `,
+    <h2>Components</h2>
+  `
 })
 export class AppComponent {}
