@@ -1,7 +1,7 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
 ## x.x. (nome do capítulo, aula, nome do vídeo)
-[[Home - Curso 1]](../../README.md#curso-1)<br />
+[[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - (se existir diretório de arquivos com documentos, etc) Diretório de arquivos: [folder_name-nn_arquivos](folder_link)
 - (se existir homework parte sem exercíos) Homework

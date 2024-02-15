@@ -1,7 +1,7 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
 ## 3.2. Instalando os recursos
-[[Home - Curso 1]](../../README.md#curso-1)<br />
+[[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Conteúdo
  - [Instalação do NodeJS e NPM](#instalação-do-nodejs-e-npm)

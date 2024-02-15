@@ -1,7 +1,7 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
 ## 4.2. Entendendo o componente
-[[Home - Curso 1]](../../README.md#curso-1)<br />
+[[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [02_arquivos](./02_arquivos/)
 - Projetos
