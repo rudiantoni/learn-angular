@@ -11,7 +11,7 @@
 ### host
 [[Topo]](#)<br />
 
-O seletor ``:host` é um seletor especial que se refere o componente em que está sendo usado.
+O seletor `:host` é um seletor especial que se refere o componente em que está sendo usado.
 
 É usado para aplicar estilos diretamente ao componente em si, em vez de seus elementos filhos.
 
