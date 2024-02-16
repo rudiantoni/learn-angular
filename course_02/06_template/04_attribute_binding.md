@@ -14,7 +14,7 @@
 
 - Ver projeto: [Projeto 1](./04_arquivos/proj_01/)
 
-A vinculação de atributo (ou attribute binding) é classificado como uma **UNIDIRECTIONAL (ONE WAY) DATA BINDING, CLASS -> TEMPLATE**, ou seja, uma vinculação de dados unidirecional, da classe para o template.
+A vinculação de atributo (ou attribute binding) é classificada como sendo **UNIDIRECTIONAL (ONE WAY) DATA BINDING, CLASS -> TEMPLATE**, ou seja, uma vinculação de dados unidirecional, da classe para o template.
 
 É semelhante ao property binding, mas usado para atributos que não possuem uma propriedade correspondente no DOM. Utiliza a sintaxe `[attr.atributo]="valor"`. Por exemplo, `<table [attr.colspan]="colspanValue">` define o atributo colspan de uma tabela.
 

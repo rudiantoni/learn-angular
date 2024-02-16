@@ -14,7 +14,7 @@
 
 - Ver projeto: [Projeto 1](./06_arquivos/proj_01/)
 
-A vinculação de classe e estilo (ou style and class binding) é classificado como uma **UNIDIRECTIONAL (ONE WAY) DATA BINDING, TEMPLATE -> CLASS**, ou seja, uma vinculação de dados unidirecional, do template para a classe.
+A vinculação de evento (ou event binding) é classificada como uma **UNIDIRECTIONAL (ONE WAY) DATA BINDING, TEMPLATE -> CLASS**, ou seja, uma vinculação de dados unidirecional, do template para a classe.
 
 É utilizado para ouvir e responder a eventos do usuário, como cliques, teclas pressionadas, etc. A sintaxe é `(evento)="handler()"`. Por exemplo, `<button (click)="save()">Save</button>` chama o método `save()` quando o botão é clicado.
 
@@ -26,11 +26,9 @@ public increment() {
 public decrement() {
   this.count--;
 }
-
 public onKeyDown(event: Event) {
   return console.log('event onKeyDown', event)
 }
-
 public onMouseMove(event: MouseEvent) {
   return console.log('event onMouseEvent', event)
 }

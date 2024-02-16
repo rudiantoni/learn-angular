@@ -14,7 +14,7 @@
 
 - Ver projeto: [Projeto 1](./03_arquivos/proj_01/)
 
-A vinculação de propriedade (ou property binding) é classificado como uma **UNIDIRECTIONAL (ONE WAY) DATA BINDING, CLASS -> TEMPLATE**, ou seja, uma vinculação de dados unidirecional, da classe para o template.
+A vinculação de propriedade (ou property binding) é classificada como sendo **UNIDIRECTIONAL (ONE WAY) DATA BINDING, CLASS -> TEMPLATE**, ou seja, uma vinculação de dados unidirecional, da classe para o template.
 
 Ela permite vincular propriedades de elementos HTML a propriedades de componentes Angular. Usa a sintaxe `[propriedade]="valor"`. Por exemplo, `<input [value]="username">` vincula a propriedade `value` do elemento input à propriedade `username` do componente.
 

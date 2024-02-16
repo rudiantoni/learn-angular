@@ -14,7 +14,7 @@
 
 - Ver projeto: [Projeto 1](./05_arquivos/proj_01/)
 
-A vinculação de classe e estilo (ou style and class binding) é classificado como uma **UNIDIRECTIONAL (ONE WAY) DATA BINDING, CLASS -> TEMPLATE**, ou seja, uma vinculação de dados unidirecional, da classe para o template.
+A vinculação de classe e estilo (ou style and class binding) é classificada como sendo **UNIDIRECTIONAL (ONE WAY) DATA BINDING, CLASS -> TEMPLATE**, ou seja, uma vinculação de dados unidirecional, da classe para o template.
 
 Ela permite adicionar ou remover classes CSS e estilos em elementos HTML com base em expressões Angular. A sintaxe é `[class.nome-da-classe]="expressão"` para classes e `[style.estilo]="expressão"` para estilos. Exemplo: `<div [class.active]="isActive">` adicionará a classe `active` se `isActive` for verdadeiro.
 
