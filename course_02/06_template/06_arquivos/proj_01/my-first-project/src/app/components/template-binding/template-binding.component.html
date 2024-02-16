@@ -1,0 +1,42 @@
+<h2>Template binding</h2>
+
+<h3>Text interpolation</h3>
+
+<p>Nome: {{name}}, idade: {{age}}</p>
+<p>{{condition}}</p>
+
+<hr />
+
+<h3>Property binding</h3>
+
+<button [disabled]="isDisabled">Botão</button>
+<img [src]="srcValue" [alt]="srcName" [title]="srcName"/>
+<p>O valor do input abaixo será alterado 3000 ms (3s) após a página iniciar:</p>
+<input disabled="true" type="text" [value]="srcName" />
+
+<hr />
+
+<h3>Attribute binding</h3>
+
+<p>Quando necessário, inspecione o elemento e visualize o os atributos alterados no código da página.</p>
+<p [attr.title]="ariaLabel" [attr.aria-label]="ariaLabel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae autem odit porro ab vero, sunt quae ratione nobis voluptatum atque magni minima possimus sed cum nam ex cumque ut?</p>
+
+<hr />
+
+<h3>Classes and Style binding</h3>
+
+<p [class.background-red]="true" [class.color-white]="false === false" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error consequatur ad incidunt eveniet dignissimos, nihil inventore vel ratione omnis ea obcaecati asperiores beatae reprehenderit explicabo quia voluptatum, doloremque iste dolore!</p>
+
+<p [style.text-decoration]="isTextDecoration">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quisquam dolorum veritatis libero voluptatibus unde qui ipsum vel nulla delectus at reiciendis! Minus ipsam ex veniam ut nostrum neque incidunt.</p>
+
+<hr />
+
+<h3>Event binding</h3>
+
+<p>Contagem: {{count}}</p>
+<button (click)="increment()">+</button>
+<button (click)="decrement()">-</button>
+<p>O elemento abaixo dispara um evento ao pressionar Shift + T. Visualizar o console.</p>
+<input (keydown.shift.t)="onKeyDown($event)" />
+<p>O elemento abaixo dispara um evento ao passar o mouse sobre ele. Visualizar o console.</p>
+<div (mousemove)="onMouseMove($event)" style="background: red; width: 300px; height: 300px; margin-top: 10px;"></div>

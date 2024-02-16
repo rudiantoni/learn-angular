@@ -83,7 +83,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056692)\] [6.3. Property binding](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056698)\] [6.4. Attribute binding](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056706)\] [6.5. Class and style binding](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056710)\] 6.6. Event binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056710)\] [6.6. Event binding](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056714)\] 6.7. Two-way binding
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056720)\] 6.8. NgClass e NgStyle
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056726)\] 6.9. Template variables
