@@ -1,0 +1,15 @@
+<h2>Template binding</h2>
+
+<h3>Text interpolation</h3>
+
+<p>Nome: {{name}}, idade: {{age}}</p>
+<p>{{condition}}</p>
+
+<hr />
+
+<h3>Property binding</h3>
+
+<button [disabled]="isDisabled">Botão</button>
+<img [src]="srcValue" [alt]="srcName" [title]="srcName"/>
+<p>O valor do input abaixo será alterado 3000 ms (3s) após a página iniciar:</p>
+<input disabled="true" type="text" [value]="srcName" />

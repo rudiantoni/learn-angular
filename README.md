@@ -80,7 +80,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 6. Template
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056686)\] 6.1. Introdução
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056688)\] [6.2. Text interpolation](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056692)\] 6.3. Property binding
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056692)\] [6.3. Property binding](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056698)\] 6.4. Attribute binding
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056706)\] 6.5. Class and style binding
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056710)\] 6.6. Event binding
