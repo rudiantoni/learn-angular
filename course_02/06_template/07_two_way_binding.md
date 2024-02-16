@@ -14,7 +14,7 @@
 
 - Ver projeto: [Projeto 1](./07_arquivos/proj_01/)
 
-A vinculação bidirecional (ou two way binding) é classificada como uma **BIRECTIONAL (TWO WAY) DATA BINDING, TEMPLATE <-> CLASS**, ou seja, uma vinculação de dados bidirecional, do template para a classe e da classe para o template.
+A vinculação bidirecional (ou two way binding) é classificada como uma **BIDIRECTIONAL (TWO WAY) DATA BINDING, TEMPLATE <-> CLASS**, ou seja, uma vinculação de dados bidirecional, do template para a classe e da classe para o template.
 
 Ela combina property e event binding para criar uma via de mão dupla entre o modelo de dados do componente e a view. Utiliza a diretiva `[(ngModel)]`. Por exemplo, `<input [(ngModel)]="username">` mantém a propriedade username sincronizada com o valor do campo de entrada.
 
