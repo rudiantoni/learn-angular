@@ -17,7 +17,7 @@
 
 - Ver projeto: [Projeto 1](./09_arquivos/proj_01/)
 
-As template variables no Angular são uma maneira de nomear elementos ou diretivas dentro do seu template HTML para que você possa acessá-los dentro do template. Elas são definidas com um prefixo `#` (hash) seguido do nome da variável. Isso permite que você acesse as propriedades e métodos do elemento ou diretiva diretamente no template.
+As template variables no Angular são uma maneira de nomear elementos ou diretivas dentro do seu template HTML para que você possa acessá-los dentro do template. Elas são definidas com um prefixo `#` seguido do nome da variável. Isso permite que você acesse as propriedades e métodos do elemento ou diretiva diretamente no template.
 
 ### Acessando um elemento HTML
 [[Topo]](#)<br />
