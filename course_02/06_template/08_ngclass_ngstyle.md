@@ -18,24 +18,24 @@
 
 1. **Usando uma string**: Se a expressão for avaliada como verdadeira, a classe será aplicada.
 
+**Template**
 ```html
 <div [ngClass]="isActive ? 'active' : ''">Conteúdo</div>
 ```
 
-No componente TypeScript:
-
+**Classe**
 ```typescript
 isActive = true;
 ```
 
 2. **Usando um objeto**: As chaves são os nomes das classes, e os valores são expressões que determinam se a classe deve ser aplicada.
 
+**Template**
 ```html
 <div [ngClass]="{'active': isActive, 'disabled': isDisabled}">Conteúdo</div>
 ```
 
-No componente TypeScript:
-
+**Classe**
 ```typescript
 isActive = true;
 isDisabled = false;
@@ -47,12 +47,12 @@ isDisabled = false;
 
 1. **Aplicando estilos dinamicamente**:
 
+**Template**
 ```html
 <div [ngStyle]="{'background-color': bgColor, 'color': textColor}">Conteúdo</div>
 ```
 
-No componente TypeScript:
-
+**Classe**
 ```typescript
 bgColor = 'blue';
 textColor = 'white';
@@ -60,12 +60,12 @@ textColor = 'white';
 
 2. **Alterando estilos com base em condições**:
 
+**Template**
 ```html
 <div [ngStyle]="isWarning ? {'background-color': 'yellow', 'font-weight': 'bold'} : {}">Atenção</div>
 ```
 
-No componente TypeScript:
-
+**Classe**
 ```typescript
 isWarning = true;
 ```
