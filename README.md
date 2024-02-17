@@ -89,6 +89,15 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056726)\] [6.9. Template variables](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057892)\] 6.10. Mais sobre
 
+9. Control flow
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056736)\] 9.1. if
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056742)\] 9.2. for
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056748)\] 9.3. for e seus valores
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056752)\] 9.4. for - @empty
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056758)\] 9.5. switch case
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 9.6. Mais sobre...
+  
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
