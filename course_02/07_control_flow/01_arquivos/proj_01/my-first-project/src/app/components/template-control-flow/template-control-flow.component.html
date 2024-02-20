@@ -1,0 +1,57 @@
+<h2>Control Flow</h2>
+
+<h3>IF</h3>
+
+<h4>Usando control Flow (NOVO)</h4>
+
+<h5>if</h5>
+@if(true) {
+Sim, é true.
+}
+
+@if(true) {
+<p>Sim, é true.</p>
+}
+
+<h5>if, else</h5>
+
+@if(!true) {
+Sim, é true.
+} @else {
+Não, não é true.
+}
+
+@if(!true) {
+<p>Sim, é true.</p>
+} @else {
+<p>Não, não é true.</p>
+}
+
+<h5>if, else-if</h5>
+
+@if(!true) {
+Sim, é true.
+} @else if (true) {
+Sim, é o true do else-if
+}
+
+@if(!true) {
+<p>Sim, é true.</p>
+} @else if (true) {
+<p>Sim, é o true do else-if</p>
+}
+
+<h4>Usando diretiva estrutural (ANTIGO)</h4>
+
+<h5>if</h5>
+<ng-container *ngIf="true">
+  <p>Sim, é true.</p>
+</ng-container>
+
+<h5>if, else</h5>
+<ng-container *ngIf="!true; else showIsNotTrue">
+  <p>Sim, é true.</p>
+</ng-container>
+<ng-template #showIsNotTrue>
+  <p>Não, não é true.</p>
+</ng-template>
