@@ -21,9 +21,9 @@
 
 - Ver projeto: [Projeto 1](./02_arquivos/proj_01/)
 
-Especifica uma condição de acionador usando um acionador da lista: idle, timer, viewport, interaction, hover e immediate.
+Especifica uma condição de acionador usando um acionador da lista: `idle`, `timer`, `viewport`, `interaction`, `hover` e `immediate`.
 
-Nota: Vários on triggers são sempre condições OR. Da mesma forma, on misturado com when também são condições OR.
+> Vários `on` triggers são sempre condições *OR*. Da mesma forma, `on` misturado com `when` e `prefetch` também são condições *OR*.
 
 ### Defer: on idle
 [[Topo]](#)<br />
