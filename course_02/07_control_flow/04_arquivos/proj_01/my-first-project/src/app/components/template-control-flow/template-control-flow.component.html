@@ -1,0 +1,153 @@
+<h2>Control Flow</h2>
+
+<hr />
+<h3>IF</h3>
+
+<h4>Usando control Flow (NOVO)</h4>
+
+<h5>if</h5>
+@if(true) {
+Sim, é true.
+}
+
+@if(true) {
+<p>Sim, é true.</p>
+}
+
+<h5>if, else</h5>
+
+@if(!true) {
+Sim, é true.
+} @else {
+Não, não é true.
+}
+
+@if(!true) {
+<p>Sim, é true.</p>
+} @else {
+<p>Não, não é true.</p>
+}
+
+<h5>if, else-if</h5>
+
+@if(!true) {
+Sim, é true.
+} @else if (true) {
+Sim, é o true do else-if
+}
+
+@if(!true) {
+<p>Sim, é true.</p>
+} @else if (true) {
+<p>Sim, é o true do else-if</p>
+}
+
+<h4>Usando diretiva estrutural (ANTIGO)</h4>
+
+<h5>if</h5>
+<ng-container *ngIf="true">
+  <p>Sim, é true.</p>
+</ng-container>
+
+<h5>if, else</h5>
+<ng-container *ngIf="!true; else showIsNotTrue">
+  <p>Sim, é true.</p>
+</ng-container>
+<ng-template #showIsNotTrue>
+  <p>Não, não é true.</p>
+</ng-template>
+
+<hr />
+<h3>FOR</h3>
+
+<h4>Usando control Flow (NOVO)</h4>
+@if (loadingData$ | async; as data) {
+<ul>
+  @for(item of data; track item) {
+  <li>{{item}}</li>
+  }
+</ul>
+} @else {
+<p>Carregando...</p>
+}
+
+@for(item of loadingData$ | async; track item) {
+<li>{{item}}</li>
+}
+
+<h4>Usando diretiva estrutural (ANTIGO)</h4>
+
+<ng-container *ngIf="loadingData$ | async as data; else loading">
+  <ul>
+    <ng-container *ngFor="let item of data; trackBy: trackByFn">
+      <li>{{item}}</li>
+    </ng-container>
+  </ul>
+</ng-container>
+<ng-template #loading>
+  <p>Carregando...</p>
+</ng-template>
+
+<hr />
+<h3>FOR com valores</h3>
+
+<h4>Usando control Flow (NOVO)</h4>
+
+@for (
+  item of itens; track item.name;
+  let i = $index;
+  let c = $count;
+  let f = $first;
+  let l = $last;
+  let e = $even;
+  let o = $odd;
+) {
+  <p>{{item.name}}. DADOS - index: {{ i }}, count: {{ c }}, first: {{ f }}, last: {{ l }}, even: {{ e }}, odd: {{ o }}</p>
+}
+
+<h4>Usando diretiva estrutural (ANTIGO)</h4>
+
+<ng-container *ngFor="
+  let item of itens;
+  let i = index;
+  let c = count;
+  let f = first;
+  let l = last;
+  let e = even;
+  let o = odd;
+  trackBy: trackByFn
+">
+  <p>{{item.name}}. DADOS - index: {{ i }}, count: {{ c }}, first: {{ f }}, last: {{ l }}, even: {{ e }}, odd: {{ o }}</p>
+</ng-container>
+
+<h5>Exemplo ao adicionar valores na lista de itens</h5>
+<input #name type="text"/>
+<button (click)="addNewName(name.value)">Adicionar nome</button>
+
+<hr />
+<h3>FOR e EMPTY</h3>
+
+<h4>Usando control Flow (NOVO)</h4>
+<ul>
+  @for(item of emptyItems; track item.name) {
+    <li>{{ item.name }}</li>
+  } @empty {
+    <li>Não contém valores</li>
+  }
+</ul>
+
+<h4>Usando diretiva estrutural (ANTIGO)</h4>
+<ul>
+  <ng-container *ngIf="emptyItems.length === 0; else notEmptyItens">
+    <li>Não contém valores</li>
+  </ng-container>
+  <ng-template #notEmptyItens>
+    <ng-container *ngFor="let item of emptyItems">
+      <li>{{ item.name }}</li>
+    </ng-container>
+  </ng-template>
+</ul>
+
+<h5>Exemplo ao adicionar valores na lista de itens vazios</h5>
+<input #nameInEmptyList type="text"/>
+<button (click)="addNewNameInEmptyList(nameInEmptyList.value)">Adicionar nome</button>
