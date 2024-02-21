@@ -105,7 +105,6 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056894)\] [8.5. Loading](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056902)\] 8.6. Error
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 8.7. Mais sobre...
-  
 
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)

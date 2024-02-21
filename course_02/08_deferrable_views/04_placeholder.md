@@ -14,9 +14,9 @@
 
 - Ver projeto: [Projeto 1](./04_arquivos/proj_01/)
 
-O `placeholder` serve para exibir uma mensagem antes que o carregamento do elemento do defer seja iniciado.
+O placeholder serve para exibir uma mensagem antes que o carregamento do elemento do defer seja iniciado.
 
-O parâmetro `minimum` serve para que o placeholder seja obrigatório durante um tempo mínimo, ou seja, após o elemento ter sido carregado e pronto para renderizar, ele só será renderizado após o tempo do placeholder finalizar, esse tempo é iniciado no término do carregamento do elemento.
+O parâmetro minimum serve para que o placeholder seja obrigatório durante um tempo mínimo, ou seja, após o elemento ter sido carregado e pronto para renderizar, ele só será renderizado após o tempo do placeholder finalizar, esse tempo é iniciado no término do carregamento do elemento.
 
 **Template**
 ```html
