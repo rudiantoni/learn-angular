@@ -98,7 +98,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 7.6. Mais sobre...
 
 8. Deferrable views
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056874)\] 8.1. Introdução
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056874)\] [8.1. Introdução](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056878)\] 8.2. Defer: on, idle, timer, viewport, interaction, hover, immediate
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056880)\] 8.3. Defer: when
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056888)\] 8.4. Placeholder: minimum
