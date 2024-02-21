@@ -94,7 +94,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056742)\] [7.2. for](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056748)\] [7.3. for e seus valores](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056752)\] [7.4. for e empty](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056758)\] 7.5. switch case
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056758)\] [7.5. switch case](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 7.6. Mais sobre...
   
 
