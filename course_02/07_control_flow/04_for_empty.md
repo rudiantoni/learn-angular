@@ -1,16 +1,16 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 7.4. for e empty
+## 7.4. For e Empty
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [04_arquivos](./04_arquivos/)
 - Projetos
   - [Projeto 1](./04_arquivos/proj_01/) [(iniciado em)](#control-flow-for-e-empty)
 - Conteúdo
-  - [Control flow: for e empty](#control-flow-for-e-empty)
-  - [Diretiva estrutural: for e empty](#diretiva-estrutural-for-e-empty)
+  - [Control flow: @for e @empty](#control-flow-for-e-empty)
+  - [Diretiva estrutural: ngFor e ngIf](#diretiva-estrutural-ngfor-e-ngif)
 
-### Control flow: for e empty
+### Control flow: @for e @empty
 [[Topo]](#)<br />
 
 - Ver projeto: [Projeto 1](./04_arquivos/proj_01/)
@@ -31,23 +31,22 @@ public emptyItems: Array<{name: string}> = []
 </ul>
 ```
 
-### Diretiva estrutural: for e empty
+### Diretiva estrutural: ngFor e ngIf
 [[Topo]](#)<br />
 
 **Classe**
 ```typescript
-import { NgFor } from '@angular/common';
+import { NgIf, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-template-control-flow',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgIf, NgFor],
   templateUrl: './template-control-flow.component.html',
   styleUrl: './template-control-flow.component.scss'
 })
 export class TemplateControlFlowComponent {
-
   public emptyItems: Array<{name: string}> = []
 }
 ```

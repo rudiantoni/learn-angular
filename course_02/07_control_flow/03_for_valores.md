@@ -1,16 +1,16 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 7.3. for e seus valores
+## 7.3. For e seus valores
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [03_arquivos](./03_arquivos/)
 - Projetos
   - [Projeto 1](./03_arquivos/proj_01/) [(iniciado em)](#control-flow-for-com-valores)
 - Conteúdo
-  - [Control flow: for com valores](#control-flow-for-com-valores)
-  - [Diretiva estrutural: for com valores](#diretiva-estrutural-for-com-valores)
+  - [Control flow: @for com valores](#control-flow-for-com-valores)
+  - [Diretiva estrutural: ngFor com valores](#diretiva-estrutural-ngfor-com-valores)
 
-### Control flow: for com valores
+### Control flow: @for com valores
 [[Topo]](#)<br />
 
 - Ver projeto: [Projeto 1](./03_arquivos/proj_01/)
@@ -38,7 +38,7 @@ public itens = [
 }
 ```
 
-### Diretiva estrutural: for com valores
+### Diretiva estrutural: ngFor com valores
 [[Topo]](#)<br />
 
 **Classe**

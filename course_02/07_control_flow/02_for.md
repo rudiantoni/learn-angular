@@ -1,16 +1,16 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 7.2. for
+## 7.2. For
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [02_arquivos](./02_arquivos/)
 - Projetos
   - [Projeto 1](./02_arquivos/proj_01/) [(iniciado em)](#control-flow-for)
 - Conteúdo
-  - [Control flow: for](#control-flow-for)
-  - [Diretiva estrutural: for](#diretiva-estrutural-for)
+- [Control flow: @for](#control-flow-for)
+- [Diretiva estrutural: ngFor](#diretiva-estrutural-ngfor)
 
-### Control flow: for
+### Control flow: @for
 [[Topo]](#)<br />
 
 - Ver projeto: [Projeto 1](./02_arquivos/proj_01/)
@@ -48,7 +48,7 @@ export class TemplateControlFlowComponent {
 }
 ```
 
-### Diretiva estrutural: for
+### Diretiva estrutural: ngFor
 [[Topo]](#)<br />
 
 **Classe**

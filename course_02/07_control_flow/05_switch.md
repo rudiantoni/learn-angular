@@ -1,16 +1,16 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 7.5. switch case
+## 7.5. Switch
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [05_arquivos](./05_arquivos/)
 - Projetos
-  - [Projeto 1](./05_arquivos/proj_01/) [(iniciado em)](#control-flow-switch-case)
+  - [Projeto 1](./05_arquivos/proj_01/) [(iniciado em)](#control-flow-switch-case-e-default)
 - Conteúdo
-  - [Control flow: switch case](#control-flow-switch-case)
-  - [Diretiva estrutural: switch case](#diretiva-estrutural-switch-case)
+  - [Control flow: @switch, @case e @default](#control-flow-switch-case-e-default)
+  - [Diretiva estrutural: ngSwitch, ngSwitchCase e ngSwitchDefault](#diretiva-estrutural-ngswitch-ngswitchcase-e-ngswitchdefault)
 
-### Control flow: switch case
+### Control flow: @switch, @case e @default
 [[Topo]](#)<br />
 
 - Ver projeto: [Projeto 1](./05_arquivos/proj_01/)
@@ -35,7 +35,7 @@ public switchCondition: string = 'A';
 }
 ```
 
-### Diretiva estrutural: switch case
+### Diretiva estrutural: ngSwitch, ngSwitchCase e ngSwitchDefault
 [[Topo]](#)<br />
 
 **Classe**
