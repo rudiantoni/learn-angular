@@ -1,0 +1,145 @@
+<h2>Deferrable Views</h2>
+
+<h3>ATENÇÃO: para ver o download acontecendo no DevTools, comente os defers adicionais e deixe ativo apenas o que for usado.</h3>
+
+@defer {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3>On idle</h3>
+
+@defer (on idle) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3>On timer</h3>
+
+@defer (on timer(5s)) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3 style="margin-bottom: 500px;">On viewport</h3>
+
+@defer (on viewport) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3 #deferOnInteractionTrigger>On interaction</h3>
+
+@defer (on interaction(deferOnInteractionTrigger)) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3 #deferOnHoverTrigger>On hover</h3>
+
+@defer (on hover(deferOnHoverTrigger)) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3>On imediate</h3>
+
+@defer (on immediate) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3 #deferOnPrefetchTrigger>On prefetch</h3>
+
+@defer (on interaction(deferOnPrefetchTrigger); prefetch on idle) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<hr />
+<h3>When</h3>
+
+<button (click)="isTrue = true">Tornar isTrue verdadeiro</button>
+
+@defer (when isTrue) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+<h4>Usando operação assíncrona</h4>
+
+@defer (when loadingData$ | async) {
+  <app-new-component />
+} @placeholder {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
+
+
+<hr />
+<h3>Placeholder</h3>
+
+@defer {
+  <app-new-component />
+} @placeholder(minimum 5s) {
+  <p>Mostrar antes do carregamento.</p>
+} @loading {
+  <p>Carregando...</p>
+} @error {
+  <p>Erro no carregamento.</p>
+}
