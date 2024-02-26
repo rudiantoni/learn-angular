@@ -60,22 +60,22 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056580)\] 3.1. Recursos da próxima aula
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056620)\] [3.2. Instalando os recursos](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056628)\] 3.3. Angular CLI
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056638)\] [3.4. CLI](arquiovmd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056638)\] [3.4. CLI](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056642)\] 3.5. Arquitetura
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056648)\] 3.6. Build
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057646)\] 3.7. Mais sobre
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057646)\] [3.7. Mais sobre](arquivomd)
 
 4. Componentes
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056658)\] 4.1. Introdução
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056660)\] [4.2. Entendendo o componente](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056662)\] [4.3. Criando um componente](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056668)\] 4.4. Final
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057808)\] 4.5. Mais sobre
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057808)\] [4.5. Mais sobre](arquivomd)
 
 5. Estilos CSS
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056674)\] 5.1. Introdução
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056680)\] [5.2. Seletores especiais](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057850)\] 5.3. Mais sobre
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057850)\] [5.3. Mais sobre](arquivomd)
 
 6. Template
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056686)\] 6.1. Introdução
@@ -87,7 +87,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056714)\] [6.7. Two-way binding](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056720)\] [6.8. NgClass e NgStyle](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056726)\] [6.9. Template variables](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057892)\] 6.10. Mais sobre
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057892)\] [6.10. Mais sobre](arquivomd)
 
 7. Control flow
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056736)\] [7.1. If](arquivomd)
@@ -95,7 +95,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056748)\] [7.3. For e seus valores](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056752)\] [7.4. For e Empty](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056758)\] [7.5. Switch](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 7.6. Mais sobre...
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] [7.6. Mais sobre](arquivomd)
 
 8. Deferrable views
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056874)\] [8.1. Introdução](arquivomd)
@@ -104,7 +104,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056888)\] [8.4. Placeholder](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056894)\] [8.5. Loading](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056902)\] 8.6. Error
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 8.7. Mais sobre...
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] [8.7. Mais sobre](arquivomd)
 
 9. Signals
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056914#)\] 9.1. Introdução
