@@ -106,6 +106,13 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056902)\] 8.6. Error
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057922)\] 8.7. Mais sobre...
 
+9. Signals
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056914#)\] 9.1. Introdução
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056926#)\] 9.2. Usando o Signal
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056930#)\] 9.3. Effect
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057938#)\] 9.4. Mais sobre...
+
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
