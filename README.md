@@ -110,7 +110,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056914#)\] 9.1. Introdução
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056926#)\] [9.2. Usando o Signal](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056930#)\] [9.3. Usando o Effect](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057938#)\] 9.4. Mais sobre...
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057938#)\] [9.4. Mais sobre](arquivomd)
 
 
 x. nome_secao
