@@ -119,8 +119,8 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 
 10. Projeto Prático: Portfólio
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277222)\] 10.1. Introdução
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277314)\] [10.2. Recursos](arquivomd))
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277224)\] 10.3. Passos iniciais do projeto
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277314)\] [10.2. Recursos](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277224)\] [10.3. Passos iniciais do projeto](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277226)\] 10.4. HTML - Componente Header
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277228)\] 10.5. HTML - Componente Knowledge
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277230)\] 10.6. HTML - Componente Experiences
