@@ -45,6 +45,11 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 - Criador(es)
   - [Dener Troquatte](https://www.udemy.com/user/dener-troquatte-3/)
 
+### Projetos do curso
+
+- \[[Ref](https://github.com/troquatte/curso-angular-latest)\] [curso-angular-latest](course_02/00_projetos_curso/)
+- \[[Ref](https://github.com/troquatte/curso-angular-portfolio)\] [curso-angular-portfolio](course_02/00_projetos_curso/)
+
 ### Conteúdo
 
 1. Instruções para o curso
@@ -114,7 +119,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 
 10. Projeto Prático: Portfólio
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277222)\] 10.1. Introdução
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277314)\] 10.2. Recursos
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277314)\] [10.2. Recursos](arquivomd))
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277224)\] 10.3. Passos iniciais do projeto
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277226)\] 10.4. HTML - Componente Header
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277228)\] 10.5. HTML - Componente Knowledge
