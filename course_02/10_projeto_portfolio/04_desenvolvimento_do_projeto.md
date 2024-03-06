@@ -18,3 +18,7 @@
 
 A partir do Angular 17, sempre que for utilizar a arroba `@` no html, utilize seu código HTML diretamente `&#64;`. Pois atualmente o arroba denota uma diretiva de controle de fluxo.
 
+#### 10.5. HTML - Componente Knowledge
+
+Sem notas a adicionar.
+
