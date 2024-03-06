@@ -121,22 +121,23 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277222)\] 10.1. Introdução
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277314)\] [10.2. Recursos](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277224)\] [10.3. Passos iniciais do projeto](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277226)\] 10.4. HTML - Componente Header
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277228)\] 10.5. HTML - Componente Knowledge
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277230)\] 10.6. HTML - Componente Experiences
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277238)\] 10.7. HTML - Componente Projects
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277240)\] 10.8. Configurando SMECSS com SCSS
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277244)\] 10.9. Criando a classe CSS container
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277248)\] 10.10. CSS - Componente Header
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277252)\] 10.11. CSS - Componente Header e Button
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277254)\] 10.12. CSS - Componente Knowledge
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277256)\] 10.13. CSS - Componente Experiences
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277260)\] 10.14. CSS - Componente Projects
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277272)\] 10.15. Dialog - Componente Projects
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277278)\] 10.16. HTML e TS - Componente Dialog
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277284)\] 10.17. CSS - Componente Dialog
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277290)\] 10.18. Final
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277376)\] 10.19. Maximizando seu impacto online com um portfólio
+  - [10.4 a 10.19 - Desenvolvimento do projeto](arquivomd)
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277226)\] 10.4. HTML - Componente Header
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277228)\] 10.5. HTML - Componente Knowledge
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277230)\] 10.6. HTML - Componente Experiences
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277238)\] 10.7. HTML - Componente Projects
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277240)\] 10.8. Configurando SMECSS com SCSS
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277244)\] 10.9. Criando a classe CSS container
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277248)\] 10.10. CSS - Componente Header
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277252)\] 10.11. CSS - Componente Header e Button
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277254)\] 10.12. CSS - Componente Knowledge
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277256)\] 10.13. CSS - Componente Experiences
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277260)\] 10.14. CSS - Componente Projects
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277272)\] 10.15. Dialog - Componente Projects
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277278)\] 10.16. HTML e TS - Componente Dialog
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277284)\] 10.17. CSS - Componente Dialog
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277290)\] 10.18. Final
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277376)\] 10.19. Maximizando seu impacto online com um portfólio
 
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
