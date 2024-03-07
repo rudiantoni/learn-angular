@@ -25,3 +25,7 @@ Sem notas a adicionar.
 #### 10.6. HTML - Componente Experiences
 
 Sem notas a adicionar.
+
+#### 10.7. HTML - Componente Projects
+
+Sem notas a adicionar.
