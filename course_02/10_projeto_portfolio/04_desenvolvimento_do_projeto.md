@@ -29,3 +29,8 @@ Sem notas a adicionar.
 #### 10.7. HTML - Componente Projects
 
 Sem notas a adicionar.
+
+#### 10.8. Configurando SMECSS com SCSS
+
+Sem notas a adicionar.
+
