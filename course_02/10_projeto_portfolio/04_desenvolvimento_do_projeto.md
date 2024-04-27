@@ -36,3 +36,8 @@ Sem notas a adicionar.
 
 #### 10.9. Criando a classe CSS container
 
+Sem notas a adicionar.
+
+#### 10.10. CSS - Componente Header
+
+Sem notas a adicionar.
