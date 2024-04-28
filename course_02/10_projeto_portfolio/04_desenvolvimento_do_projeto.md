@@ -57,3 +57,34 @@ Sem notas a adicionar.
 #### 10.14. CSS - Componente Projects
 
 Sem notas a adicionar.
+
+#### 10.15. Dialog - Componente Projects
+
+- Site oficiais
+- Angular Material: https://material.angular.io/
+- Angular Material - Components: https://material.angular.io/components/categories
+- Angular Material - Dialog: https://material.angular.io/components/dialog/overview
+
+Existe uma alternativa para fazer a injeção de dependência no Angular.
+
+É possível criar uma propriedade privada e injetar diretamente uma dependência nela utilizando `inject()` ao invés da clássica injeção via construtor:
+
+**Classe**
+```typescript
+#dialog = inject(MatDialog);
+
+public openDialog(data: SomeDataType) {
+  this.#dialog.open(SomeDialogClass, {data})
+}
+```
+
+O código acima equivale a:
+
+**Classe**
+```typescript
+constructor(private dialog: MatDialog) {}
+
+public openDialog(data: SomeDataType) {
+  this.dialog.open(SomeDialogClass, {data})
+}
+```
