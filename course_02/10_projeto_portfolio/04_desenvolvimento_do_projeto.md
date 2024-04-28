@@ -45,3 +45,7 @@ Sem notas a adicionar.
 #### 10.11. CSS - Componente Header e Button
 
 Sem notas a adicionar.
+
+#### 10.12. CSS - Componente Knowledge
+
+Sem notas a adicionar.
