@@ -139,8 +139,11 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277290)\] 10.18. Final
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41277376)\] 10.19. Maximizando seu impacto online com um portfólio
 
+11. Comunicação entre componentes
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056942)\] 11.1. Introdução
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056948)\] [11.2. Input](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056950)\] [11.3. Output](arquivomd)
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
-
-TODO: atualizar arquivos MD
