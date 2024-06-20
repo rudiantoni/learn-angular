@@ -88,3 +88,5 @@ public openDialog(data: SomeDataType) {
   this.dialog.open(SomeDialogClass, {data})
 }
 ```
+
+#### 10.16. HTML e TS - Componente Dialog
