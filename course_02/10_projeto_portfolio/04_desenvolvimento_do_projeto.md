@@ -90,3 +90,38 @@ public openDialog(data: SomeDataType) {
 ```
 
 #### 10.16. HTML e TS - Componente Dialog
+
+Sem notas a adicionar.
+
+#### 10.17. CSS - Componente Dialog
+
+Sem notas a adicionar.
+
+#### 10.18. Final
+
+Sem notas a adicionar.
+
+#### 10.19. Maximizando seu impacto online com um portfólio
+
+No mundo digital em constante evolução, a presença online é essencial para quem busca destacar-se e criar uma conexão significativa com seu público.
+
+##### O que é um portfólio online?
+
+Um portfólio online é uma coleção organizada de seus melhores trabalhos, projetos, realizações e habilidades. Ele funciona como uma vitrine virtual que destaca suas capacidades e cria uma impressão impactante sobre quem você é e o que você pode oferecer.
+
+##### Por que é importante?
+
+- Credibilidade: Um portfólio confere credibilidade, mostrando que você é experiente e qualificado no seu nicho.
+- Visualização de habilidades: Seu portfólio serve como uma ferramenta visual para destacar suas habilidades. Se você é um fotógrafo, designer, escritor, ou qualquer outra coisa, um portfólio pode trazer à tona o melhor do seu trabalho.
+
+##### Como criar e utilizar um portfólio
+
+Escolha a plataforma certa: Existem várias plataformas online para criar portfólios, como Behance, WordPress, ou até mesmo uma seção dedicada no seu blog. Escolha uma que se alinhe ao seu estilo e objetivos. Ou então no nosso caso, crie o seu!
+
+Selecione seus melhores trabalhos: Seja seletivo ao escolher o conteúdo para o seu portfólio. Destaque projetos que demonstrem sua habilidade e diversidade.
+
+Mantenha atualizado: Um portfólio dinâmico é mais eficaz. Regularmente adicione novos trabalhos e atualize informações para refletir seu crescimento profissional.
+
+Conte sua história: Use seu portfólio como uma oportunidade para contar sua história. Adicione descrições pessoais ou profissionais para contextualizar seus projetos e inspirar uma conexão mais profunda.
+
+Em resumo, um portfólio online é uma ferramenta poderosa para destacar suas habilidades, construir credibilidade e criar uma conexão mais significativa com seu público. Ao incorporar estrategicamente um portfólio, você estará maximizando seu impacto online e solidificando sua presença no vasto mundo digital.
