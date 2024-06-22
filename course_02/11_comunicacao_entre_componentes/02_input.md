@@ -8,7 +8,7 @@
   - [Projeto 1](./02_arquivos/proj_01) [(iniciado em)](#comunicação-básica)
 - Conteúdo
   - [Comunicação básica](#comunicação-básica)
-  - [Comunicação avançada](#comunicação-avançada)
+  - [Comunicação com signal](#comunicação-com-signal)
 
 ### Comunicação básica
 [[Topo]](#)<br />
@@ -59,7 +59,7 @@ export class InputComponent {
 <p>Recebido nameB do pai: {{ nameB }}</p>
 ```
 
-### Comunicação avançada
+### Comunicação com signal
 [[Topo]](#)<br />
 
 Também é possível enviar outros tipos de informações, como objetos, ou signals. Porém signals devem ser enviados com setters, pois eles não são diretamente aceitos.
