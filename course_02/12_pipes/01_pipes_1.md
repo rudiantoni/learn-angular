@@ -3,9 +3,9 @@
 ## 12.1. Pipes 1
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
-- Diretório de arquivos: [01_arquivos](./01_arquivos)
+- Diretório de arquivos: [01_arquivos](./01_arquivos/)
 - Projetos
-  - [Projeto 1](./01_arquivos/proj_01) [(iniciado em)](#o-que-são-pipes)
+  - [Projeto 1](./01_arquivos/proj_01/) [(iniciado em)](#o-que-são-pipes)
 - Conteúdo
   - [O que são pipes](#o-que-são-pipes)
   - [Como usar pipes](#como-usar-pipes)
@@ -24,6 +24,7 @@ Pipes no Angular são uma forma poderosa de transformar dados diretamente nas te
 Nas versões mais antigas do Angular, os pipes nativos estão disponíveis através do módulo CommonModule, porém atualmente é possível importar apenas o pipe utilizado em questão.
 
 ### Exemplo de utilização simples com pipe nativo (DatePipe)
+[[Topo]](#)<br />
 
 **Classe**
 ```typescript

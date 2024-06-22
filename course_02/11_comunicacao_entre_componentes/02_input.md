@@ -5,7 +5,7 @@
 
 - Diretório de arquivos: [02_arquivos](./02_arquivos/)
 - Projetos
-  - [Projeto 1](./02_arquivos/proj_01) [(iniciado em)](#comunicação-básica)
+  - [Projeto 1](./02_arquivos/proj_01/) [(iniciado em)](#comunicação-básica)
 - Conteúdo
   - [Comunicação básica](#comunicação-básica)
   - [Comunicação com signal](#comunicação-com-signal)
