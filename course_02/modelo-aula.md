@@ -18,7 +18,20 @@
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
 
+**Estilo**
+```css
+...
+```
 
+**Classe**
+```typescript
+...
+```
+
+**Template**
+```html
+...
+```
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />

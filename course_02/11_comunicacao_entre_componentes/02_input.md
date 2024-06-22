@@ -3,114 +3,111 @@
 ## 11.2. Input
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
-- (se existir diretório de arquivos com documentos, etc) Diretório de arquivos: [folder_name-nn_arquivos](folder_link)
-- (se existir homework parte sem exercíos) Homework
-  - [Arquivo: file_name_no_extension](file_link)
-  - [content_title](content_link)
-  - ...
-- (se existir projeto) Projetos
-  - [Projeto N](folder_link-proj_nn) [(iniciado em)](#started_in_content_link)
-  - ...
+- Diretório de arquivos: [02_arquivos](./02_arquivos/)
+- Projetos
+  - [Projeto 1](./02_arquivos/proj_01) [(iniciado em)](#started_in_content_link)
 - Conteúdo
   - []()
   - ...
 
-### (nome do vídeo, aula, etc)
+### Comunicação básica
 [[Topo]](#)<br />
 
+O Input serve para passar informações de um componente pai para um componente filho.
 
+#### Componente pai
 
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-Se homework:
-- Ver homework: [file_name_no_extension](file_link)
-Se projeto:
-- Ver projeto: [Projeto N](folder_link-proj_nn)
-
-Lista ordenada
-1. Lista item 1
-2. Lista item 2
-3. Lista item 3
-
-Lista desordenada
-- Lista item 1
-- Lista item 2
-- Lista item 3
-
-`linha de codigo`
-
-Bloco de código
-
-```
-bloco de código {
-
+**Classe**
+```typescript
+@Component({
+  selector: 'app-pai',
+  standalone: true,
+  imports: [InputComponent],
+  templateUrl: './pai.component.html',
+  styleUrl: './pai.component.scss'
+})
+export class PaiComponent {
+  public myName: string = "Rudi Antoni";
 }
 ```
 
-Se exercício:
-> Exercício N ((nome do vídeo, aula, etc)): [caminho](exercicio_nn)
+**Template**
+```html
+<app-input nameA="Rudi Antoni" [nameB]="myName" />
+```
 
-Enunciado de pesquisa:
-- Usando Angular 17 como base, me explique o que é xxx com exemplos de código
-- Usando Angular 17 como base, me explique o que é xxx com exemplos de código
-- Usando Angular 17 como base, me explique o que é xxx com exemplos de código
-- Usando Angular 17 como base, me explique o que é xxx com exemplos de código
-- Usando Angular 17 como base, me explique o que é xxx com exemplos de código
-- Usando Angular 17 como base, me explique o que é xxx com exemplos de código
+#### Componente filho
+
+**Classe**
+```typescript
+@Component({
+  selector: 'app-input',
+  standalone: true,
+  imports: [],
+  templateUrl: './input.component.html',
+  styleUrl: './input.component.scss'
+})
+export class InputComponent {
+  @Input() public nameA: string = "Sem dados";
+  @Input() public nameB: string = "Sem dados";
+}
+```
+
+**Template**
+```html
+<p>Recebido nameA do pai: {{ nameA }}</p>
+<p>Recebido nameB do pai: {{ nameB }}</p>
+```
+
+### Comunicação avançada
+[[Topo]](#)<br />
+
+Também é possível enviar outros tipos de informações, como objetos, ou signals. Porém signals devem ser enviados com setters, pois eles não são diretamente aceitos.
+
+#### Componente pai
+
+**Classe**
+```typescript
+@Component({
+  selector: 'app-pai',
+  standalone: true,
+  imports: [InputComponent],
+  templateUrl: './pai.component.html',
+  styleUrl: './pai.component.scss'
+})
+export class PaiComponent {
+  public name: signal("Rudi Antoni");
+}
+```
+
+**Template**
+```html
+<app-input [nameCSetter]="name()" />
+```
+
+#### Componente filho
+
+**Classe**
+```typescript
+@Component({
+  selector: 'app-input',
+  standalone: true,
+  imports: [],
+  templateUrl: './input.component.html',
+  styleUrl: './input.component.scss'
+})
+export class InputComponent {
+  public nameC = signal("Sem dados");
+  @Input({
+    required: true,
+    transform: toUpperCase
+  }) set nameCSetter(value: string): void {
+    this.nameC.set(value);
+  }  
+}
+```
+
+**Template**
+```html
+<p>Recebido nameC do pai: {{ nameCSig }}</p>
+```
