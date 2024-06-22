@@ -1,0 +1,17 @@
+<h2>Pipes</h2>
+
+<p>{{ currentDate() | date }}</p>
+
+<p>{{ currentDate() | date : "short" }}</p>
+
+<p>{{ currentDate() | date : "dd/MM/yyyy" }}</p>
+
+<p>{{ "rudi antoni" | uppercase }}</p>
+
+<p>{{ "RUDI ANTONI" | lowercase }}</p>
+
+<p>Obj sem JsonPipe: {{ obj() }}</p>
+<p>Obj com JsonPipe: {{ obj() | json }}</p>
+
+<p>LoadingData sem AsyncPipe: {{ loadingData$ }}</p>
+<p>LoadingData com AsyncPipe: {{ loadingData$ | async }}</p>
