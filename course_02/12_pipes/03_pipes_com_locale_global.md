@@ -12,6 +12,8 @@
 ### Aplicando a localização globalmente
 [[Topo]](#)<br />
 
+- Ver projeto: [Projeto 1](./03_arquivos/proj_01/)
+
 Para isso, ao invés de adicionar a localização no componente sendo usado, basta realizar a mesma configuração, mas no arquivo `app.config.ts`, ou seja,
 1. Importar a configuração de localização com `import` e atribuí-la a uma variável.
 2. Registrar a localização importada com `registerLocaleData`.

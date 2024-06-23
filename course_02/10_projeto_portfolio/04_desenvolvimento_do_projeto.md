@@ -1,6 +1,6 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 10.4 a 10.19 - Desenvolvimento do projeto
+## 13.1 a 13.21 - Configuração e desenvolvimento do projeto
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [04_arquivos](./04_arquivos/)

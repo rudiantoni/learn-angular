@@ -12,6 +12,8 @@
 ### Criando pipe personalizado
 [[Topo]](#)<br />
 
+- Ver projeto: [Projeto 1](./04_arquivos/proj_01/)
+
 - Abra o terminal dentro da pasta raiz do projeto.
 - Use o comando `ng generate pipe pipe-name`
   - Atalho `ng g p pipe-name`

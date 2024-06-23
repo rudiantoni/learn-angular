@@ -13,6 +13,8 @@
 ### Pipes de manipulação de números
 [[Topo]](#)<br />
 
+- Ver projeto: [Projeto 1](./02_arquivos/proj_01/)
+
 O CurrencyPipe é utilizado para formatar números como valores monetários. Ele permite especificar a moeda, o símbolo da moeda e outras opções de formatação.
 
 O DecimalPipe é utilizado para formatar números decimais. Você pode especificar o número mínimo e máximo de dígitos inteiros e decimais.

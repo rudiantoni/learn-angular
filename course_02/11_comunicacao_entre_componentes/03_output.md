@@ -13,6 +13,8 @@
 ### Comunicação básica
 [[Topo]](#)<br />
 
+- Ver projeto: [Projeto 1](./03_arquivos/proj_01/)
+
 O Output serve para enviar dados de um componente filho para um componente pai.
 
 #### Componente pai

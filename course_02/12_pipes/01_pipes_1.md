@@ -16,6 +16,8 @@
 ### O que são pipes
 [[Topo]](#)<br />
 
+- Ver projeto: [Projeto 1](./01_arquivos/proj_01/)
+
 Pipes no Angular são uma forma poderosa de transformar dados diretamente nas templates. Eles permitem que você altere a aparência dos dados sem modificá-los diretamente na lógica do componente. Pipes podem ser usados para realizar diversas operações, como formatação de números, datas, manipulação de strings, entre outras.
 
 ### Como usar pipes

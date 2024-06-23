@@ -152,8 +152,8 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057946)\] [12.5. Mais sobre](arquivomd)
 
 13. Projeto Prático: Lista de tarefas
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835278)\] 13.1. Introdução
-  - [13.2 a 13.21 - Configuração e desenvolvimento do projeto](arquivomd)
+  - [13.1 a 13.21 - Configuração e desenvolvimento do projeto](arquivomd)
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835278)\] 13.1. Introdução
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835286)\] 13.2. Passos iniciais do projeto
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835428)\] 13.3. Recursos
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835298)\] 13.4. Configurando reset scss
