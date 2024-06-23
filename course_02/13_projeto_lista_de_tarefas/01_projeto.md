@@ -3,14 +3,9 @@
 ## 13.1 a 13.21 - Configuração e desenvolvimento do projeto
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
-- (se existir diretório de arquivos com documentos, etc) Diretório de arquivos: [folder_name-nn_arquivos](folder_link)
-- (se existir homework parte sem exercíos) Homework
-  - [Arquivo: file_name_no_extension](file_link)
-  - [content_title](content_link)
-  - ...
-- (se existir projeto) Projetos
-  - [Projeto N](folder_link-proj_nn) [(iniciado em)](#started_in_content_link)
-  - ...
+- Diretório de arquivos: [01_arquivos](./01_arquivos/)
+- Projetos
+  - [Projeto 1](./01_arquivos/proj_01/) [(iniciado em)](#131-introdução)
 - Conteúdo
   - []()
   - ...
@@ -24,10 +19,119 @@ Também é possível remover todas as tarefas.
 
 Os dados permanecem persistidos entre page refresh por meio do Local Storage.
 
-### (nome do vídeo, aula, etc)
+### 13.2. Passos iniciais do projeto
 [[Topo]](#)<br />
 
+#### Criação do projeto
 
+- Ver projeto: [Projeto 1](./03_arquivos/proj_01/)
+
+- Abrir o terminal e executar o seguinte comando para criar o projeto: `ng new curso-angular-lista-de-tarefas`
+  - Escolha
+    - Formato de estilização (padrão CSS): SCSS
+    - Ativação do SSR Server-Side Rendering e SSG Static Site Generation (padrão N): Não
+- Entre na pasta do projeto: `cd curso-angular-lista-de-tarefas`
+- Pata testar, inicie a aplicação: `ng serve` ou `ng s`
+  - Você pode interrompê-la após o início enviando `SIGINT` (Ctrl + C).
+
+#### Estruturação inicial
+
+- Configuração do template inicial
+  - No template `app.component.html`: copie tudo que estiver abaixo do comentário `End of Placeholder`.
+  - No componente `app.component.ts`: adicione a propriedade `template` do decorador `@Component`, como valor cole o conteúdo copiado anteriormente.
+  - No componente `app.component.ts`: remova as propriedades `templateUrl` e `styleUrl` do decorador `@Component`.
+  - No componente `app.component.ts`: remova qualquer código existente na classe `AppComponent`.
+  - Remover os arquivos: `app.component.html`, `app.component.scss` e `app.component.spec.ts`
+- Editar arquivo `./src/index.html`
+```html
+<head>
+  <!-- ... -->
+  <meta property="og:image" content="https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/assets/img/og-image-lista-de-tarefas.png" />
+  <meta name="description" content="Sou um apaixonado desenvolvedor front-end com expertise em HTML5, CSS3, JavaScript e frameworks modernos como Angular. Explore minha lista de tarefas e veja este meu projeto envolvente e responsivos." />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <!-- ... -->
+</head>
+```
+
+#### CSS bootstrap
+
+- Criar pasta *scss* em *./src/*.
+- Criar pasta *base* em *./src/scss/*.
+- Criar pasta *component* em *./src/scss/*.
+- Criar pasta *layout* em *./src/scss/*.
+- Criar pasta *theme* em *./src/scss/*.
+- Criar arquivo `_index.scss` em *./src/scss/*.
+- Criar arquivo `_index.scss` em *./src/scss/base/*.
+- Criar arquivo `_index.scss` em *./src/scss/component/*.
+- Criar arquivo `_index.scss` em *./src/scss/layout/*.
+- Criar arquivo `_index.scss` em *./src/scss/theme/*.
+- Criar arquivo `_variables.scss` em *./src/scss/theme/*.
+- Editar arquivo `./src/styles.scss`
+```scss
+@import "scss";
+```
+- Editar arquivo `./src/scss/_index.scss`
+```scss
+@use "base";
+@use "component";
+@use "layout";
+@use "theme";
+```
+- Editar arquivo `./src/scss/theme/_index.scss`
+```scss
+@use "variables";
+```
+- Editar arquivo `./src/scss/theme/_variables.scss`
+```scss
+:root {
+  --primary: #2fbf71;
+  --primary-010: #21804d;
+
+  --white: #fff;
+  
+  --grey: #9b9ba0;
+
+  --black: #10101a;
+  --black-010: #2a2a30;
+
+  --red: #c90025;
+  --red-010: #a3001e;
+}
+```
+
+#### Arquivos do projeto inicial (com bootstrap de CSS)
+
+```
+src
+│   favicon.ico
+│   index.html
+│   main.ts
+│   styles.scss
+│
+├───app
+│       app.component.ts
+│       app.config.ts
+│       app.routes.ts
+│
+├───assets
+│       .gitkeep
+│
+└───scss
+    │   _index.scss
+    │
+    ├───base
+    │       _index.scss
+    │
+    ├───component
+    │       _index.scss
+    │
+    ├───layout
+    │       _index.scss
+    │
+    └───theme
+            _index.scss
+            _variables.scss
+```
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
