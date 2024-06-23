@@ -62,7 +62,7 @@ export class AppModule { }
 - Abra o terminal dentro da pasta raiz do projeto.
 - Use o comando `ng generate component component-name`
   - Atalho `ng g c component-name`
-- O Angular CLI will gerará o novo componente dentro da pasta src/app com todos os arquivos necessários e aplicará as mudanças ao app.module.ts.
+- O Angular CLI gerará o novo componente dentro da pasta src/app com todos os arquivos necessários e aplicará as mudanças ao app.module.ts.
 
 ## Propriedade do @Component: template
 

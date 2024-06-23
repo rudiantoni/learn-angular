@@ -148,7 +148,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056970)\] [12.1. Pipes 1](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056974)\] [12.2. Pipes 2](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056978)\] [12.3. Pipes com Locale Global](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056984)\] [12.4. Pipes customizados](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056984)\] [12.4. Pipes personalizados](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057946)\] [12.5. Mais sobre](arquivomd)
   
 x. nome_secao
