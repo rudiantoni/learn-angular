@@ -150,7 +150,31 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056978)\] [12.3. Pipes com Locale Global](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41056984)\] [12.4. Pipes personalizados](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057946)\] [12.5. Mais sobre](arquivomd)
-  
+
+13. Projeto Prático: Lista de tarefas
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835278)\] 13.1. Introdução
+  - [13.2 a 13.21 - Configuração e desenvolvimento do projeto](arquivomd)
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835286)\] 13.2. Passos iniciais do projeto
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835428)\] 13.3. Recursos
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835298)\] 13.4. Configurando reset scss
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835300)\] 13.5. HTML - Componente PageList
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835304)\] 13.6. CSS - Container e Buttons
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835306)\] 13.7. CSS - Input label text
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835318)\] 13.8. CSS - Componente PageList
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835322)\] 13.9. TS - Componente PageList
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835330)\] 13.10. Novo componente - Input add item
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835332)\] 13.11. Persistindo dados no localstorage
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835338)\] 13.12. Transitando dados entre componentes
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835346)\] 13.13. CSS - Input label text
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835356)\] 13.14. CSS - Componente PageList
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835362)\] 13.15. Criando e editando um novo componente input list item
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835364)\] 13.16. Filtrando os dados
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835366)\] 13.17. Update checked
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835370)\] 13.18. Update value
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835372)\] 13.19. Delete Item
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835376)\] 13.20. Melhorias no código
+    - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835382)\] 13.21. Sweet Alert 2
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
