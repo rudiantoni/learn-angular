@@ -68,6 +68,8 @@ Como exemplo, vamos efetuar a localização desses valores para o Brasil.
 
 Para fazer isso, primeiro importamos a configuração de localização com `import`, depois a registramos com `registerLocaleData` e por último especificamos o `LOCALE_ID` manualmente através do `providers`.
 
+Em projetos mais antigos, o `provider` seria incluso no `NgModule` e estaria disponível globalmente.
+
 **Classe**
 ```typescript
 import localePt from '@angular/common/locales/pt';
