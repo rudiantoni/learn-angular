@@ -133,10 +133,14 @@ src
             _variables.scss
 ```
 
-### (nome do vídeo, aula, etc)
+### 13.3. Recursos
 [[Topo]](#)<br />
 
+Segue link da api que iremos utilizamos na aula.
 
+- GitHub do projeto: https://github.com/troquatte/curso-angular-lista-de-tarefas
+- Assets: https://github.com/troquatte/curso-angular-lista-de-tarefas/tree/master/src/assets
+- GHPAGES: https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />

@@ -49,6 +49,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 
 - \[[Ref](https://github.com/troquatte/curso-angular-latest)\] [curso-angular-latest](course_02/00_projetos_curso/)
 - \[[Ref](https://github.com/troquatte/curso-angular-portfolio)\] [curso-angular-portfolio](course_02/00_projetos_curso/)
+- \[[Ref](https://github.com/troquatte/curso-angular-lista-de-tarefas)\] [curso-angular-lista-de-tarefas](course_02/00_projetos_curso/)
 
 ### Conteúdo
 
