@@ -72,10 +72,10 @@ Os dados permanecem persistidos entre page refresh por meio do Local Storage.
 ```
 - Editar arquivo `./src/scss/_index.scss`
 ```scss
-@use "base";
-@use "component";
-@use "layout";
-@use "theme";
+@import "base/index";
+@import "component/index";
+@import "layout/index";
+@import "theme/index";
 ```
 - Editar arquivo `./src/scss/theme/_index.scss`
 ```scss
