@@ -188,7 +188,7 @@ src
 
 
 **Estilo**
-```css
+```scss
 ...
 ```
 

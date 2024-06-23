@@ -17,7 +17,7 @@ O seletor `:host` é um seletor especial que se refere o componente em que está
 
 Você pode definir estulos específicos para o componente raiz, por exemplo, alterando a cor de fundo ou a borda do componente.
 
-```css
+```scss
 :host {
   h2 {
     background: red;
@@ -34,7 +34,7 @@ Isso é útil quando você deseja aplicar estilos com base em condições no com
 
 Por exemplo, você pode alterar a cor de fundo de um componente filho com base em um valor definido em seu componente pai.
 
-```css
+```scss
 :host-context(.theme-dark) {
 h2 {
     background: #000;
@@ -58,7 +58,7 @@ Em outras palavras, ele permite que você contorne o encapsulamento de estilos e
 
 No entanto, é importante notar que o uso excessivo de `::ng-deep` pode tornar o código mais difícil de manter e pode não ser a melhor prática em muitos casos.
 
-```css
+```scss
 ::ng-deep {
   .theme-red {
     border: 5px solid blue;

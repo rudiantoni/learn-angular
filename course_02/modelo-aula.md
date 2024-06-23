@@ -19,7 +19,7 @@
 [[Topo]](#)<br />
 
 **Estilo**
-```css
+```scss
 ...
 ```
 

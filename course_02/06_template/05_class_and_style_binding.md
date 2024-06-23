@@ -19,7 +19,7 @@ A vinculação de classe e estilo (ou style and class binding) é classificada c
 Ela permite adicionar ou remover classes CSS e estilos em elementos HTML com base em expressões Angular. A sintaxe é `[class.nome-da-classe]="expressão"` para classes e `[style.estilo]="expressão"` para estilos. Exemplo: `<div [class.active]="isActive">` adicionará a classe `active` se `isActive` for verdadeiro.
 
 **Estilo**
-```css
+```scss
 :host {
   .background-red {
     background: red;
