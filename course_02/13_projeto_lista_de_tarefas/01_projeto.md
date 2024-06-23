@@ -147,10 +147,22 @@ Segue link da api que iremos utilizamos na aula.
 
 Sem notas a adicionar.
 
-### (nome do vídeo, aula, etc)
+### 13.5. HTML - Componente PageList
 [[Topo]](#)<br />
 
+Esse será o componente principal. Após criá-lo, adicioná-lo como rota inicial no arquivo `app.routes.ts`
 
+**aoo.routes.ts**
+```typescript
+import { Routes } from '@angular/router';
+
+// Pages
+import { ListComponent } from './modules/to-do-list/pages/list/list.component';
+
+export const routes: Routes = [
+  {path: '', component: ListComponent}
+];
+```
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
