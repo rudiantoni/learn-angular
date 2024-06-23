@@ -6,6 +6,7 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   template: `
+    <p>TESTE QUALE</p>
     <router-outlet />
   `
 })

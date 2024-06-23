@@ -142,10 +142,10 @@ Segue link da api que iremos utilizamos na aula.
 - Assets: https://github.com/troquatte/curso-angular-lista-de-tarefas/tree/master/src/assets
 - GHPAGES: https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
 
-### (nome do vídeo, aula, etc)
+### 13.4. Configurando reset scss
 [[Topo]](#)<br />
 
-
+Sem notas a adicionar.
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
