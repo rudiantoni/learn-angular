@@ -5,12 +5,24 @@
     loading="eager"
   />
 
-  <button class="btn btn-primary">Crie uma lista de tarefas</button>
-
+  @if (addItem() === true) {
+  <button class="btn btn-primary" (click)="addItem.set(false)">
+    Crie uma lista de tarefas
+  </button>
+  } @else {
   <div>
     <label class="input-label-text" for="input-value">
-      <input type="text" placeholder="Adicione um novo item" id="input-value" autofocus />
-      <button class="btn btn-primary-circle" title="Adicionar um novo item"></button>
+      <input
+        type="text"
+        placeholder="Adicione um novo item"
+        id="input-value"
+        autofocus
+      />
+      <button
+        class="btn btn-primary-circle"
+        title="Adicionar um novo item"
+      ></button>
     </label>
   </div>
+  }
 </div>

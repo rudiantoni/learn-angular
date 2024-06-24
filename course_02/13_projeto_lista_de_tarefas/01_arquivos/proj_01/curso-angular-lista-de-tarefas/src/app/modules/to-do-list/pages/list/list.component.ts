@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, WritableSignal, signal } from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './list.component.scss'
 })
 export class ListComponent {
-
+  addItem: WritableSignal<boolean> = signal<boolean>(true)
 }
