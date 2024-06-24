@@ -19,7 +19,7 @@ import { IListItems } from '../../../../interface/IListItems.interface';
 export class InputAddItemComponent {
   #cdr = inject(ChangeDetectorRef);
   @ViewChild('inputText') inputText!: ElementRef;
-  @Output() outputListItems = new EventEmitter<IListItems>();
+  @Output() outputAddListItem = new EventEmitter<IListItems>();
 
   focusAndAddItem(value: string): void {
     if (value) {
@@ -27,7 +27,7 @@ export class InputAddItemComponent {
       this.inputText.nativeElement.value = '';
       const timestamp = new Date().getTime();
       const id = `ID ${timestamp}`;
-      this.outputListItems.emit({
+      this.outputAddListItem.emit({
         id,
         value,
         checked: false,
