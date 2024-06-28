@@ -19,7 +19,10 @@ export class ListComponent {
     return JSON.parse(localStorage.getItem('@my-list') || '[]');
   }
   getInputAndAddItem(value: IListItems): void {
-    localStorage.setItem('@my-list', JSON.stringify([...this.#setListItems(), value]));
+    localStorage.setItem(
+      '@my-list',
+      JSON.stringify([...this.#setListItems(), value])
+    );
     this.#setListItems.set(this.#parseItems());
   }
 }
