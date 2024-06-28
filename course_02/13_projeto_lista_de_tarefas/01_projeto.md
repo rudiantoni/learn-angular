@@ -212,12 +212,12 @@ Sem notas a adicionar.
 ### 13.15. Criando e editando um novo componente input list item
 [[Topo]](#)<br />
 
+Sem notas a adicionar.
 
-
-### (nome do vídeo, aula, etc)
+### 13.16. Filtrando os dados
 [[Topo]](#)<br />
 
-
+Sem notas a adicionar.
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
