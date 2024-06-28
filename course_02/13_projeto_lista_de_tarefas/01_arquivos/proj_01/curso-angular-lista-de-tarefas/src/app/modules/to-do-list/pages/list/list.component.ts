@@ -18,8 +18,8 @@ export class ListComponent {
   #parseItems(): IListItems[] {
     return JSON.parse(localStorage.getItem('@my-list') || '[]');
   }
-  getInputAndAddItem(value: IListItems) {
-    localStorage.setItem('@my-list', JSON.stringify([value]));
-    console.log('getInputAndAddItem value', value);
+  getInputAndAddItem(value: IListItems): void {
+    localStorage.setItem('@my-list', JSON.stringify([...this.#setListItems(), value]));
+    this.#setListItems.set(this.#parseItems());
   }
 }

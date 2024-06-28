@@ -194,6 +194,11 @@ Sem notas a adicionar.
 
 Sem notas a adicionar.
 
+### 13.12. Transitando dados entre componentes
+[[Topo]](#)<br />
+
+Sem notas a adicionar.
+
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
 
@@ -201,6 +206,47 @@ Sem notas a adicionar.
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
+
+
+### (nome do vídeo, aula, etc)
+[[Topo]](#)<br />
+
 
 
 **Estilo**
