@@ -25,4 +25,9 @@ export class ListComponent {
     );
     this.#setListItems.set(this.#parseItems());
   }
+
+  deleteAllItems(): void {
+    localStorage.removeItem('@my-list');
+    this.#setListItems.set(this.#parseItems());
+  }
 }
