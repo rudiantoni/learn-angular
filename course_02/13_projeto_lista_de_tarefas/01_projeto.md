@@ -239,27 +239,9 @@ Sem notas a adicionar.
 
 Sem notas a adicionar.
 
-### (nome do vídeo, aula, etc)
+### 13.21. Sweet Alert 2
 [[Topo]](#)<br />
 
+Documentação oficial do sweetalert2: https://sweetalert2.github.io/
 
-
-### (nome do vídeo, aula, etc)
-[[Topo]](#)<br />
-
-
-
-**Estilo**
-```scss
-...
-```
-
-**Classe**
-```typescript
-...
-```
-
-**Template**
-```html
-...
-```
+Instalar no projeto com `npm install sweetalert2`
