@@ -43,7 +43,7 @@ Os dados permanecem persistidos entre page refresh por meio do Local Storage.
 
 #### Criação do projeto
 
-- Ver projeto: [Projeto 1](./03_arquivos/proj_01/)
+- Ver projeto: [Projeto 1](./01_arquivos/proj_01/)
 
 - Abrir o terminal e executar o seguinte comando para criar o projeto: `ng new curso-angular-lista-de-tarefas`
   - Escolha
