@@ -16,7 +16,16 @@ export class InputListItemComponent {
     checked: boolean;
   }>();
 
+  @Output() outputUpdateItemText = new EventEmitter<{
+    id: string;
+    value: string;
+  }>();
+
   updateItemCheckbox(id: string, checked: boolean): void {
     this.outputUpdateItemCheckbox.emit({ id, checked });
+  }
+
+  updateItemText(id: string, value: string): void {
+    this.outputUpdateItemText.emit({ id, value });
   }
 }
