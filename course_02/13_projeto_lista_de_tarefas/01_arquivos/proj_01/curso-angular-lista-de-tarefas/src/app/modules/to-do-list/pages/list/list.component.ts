@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { IListItems } from '../../../../interface/IListItems.interface';
 import { InputAddItemComponent } from '../../components/input-add-item/input-add-item.component';
 import { InputListItemComponent } from '../../components/input-list-item/input-list-item.component';
+import { ELocalStorage } from '../../enum/ELocalStorage.enum';
 
 @Component({
   selector: 'app-list',
@@ -17,11 +18,19 @@ export class ListComponent {
   getListItems = this.#setListItems.asReadonly();
 
   #parseItems(): IListItems[] {
-    return JSON.parse(localStorage.getItem('@my-list') || '[]');
+    return JSON.parse(localStorage.getItem(ELocalStorage.MY_LIST) || '[]');
   }
+
+  #updateLocalStorage(): void {
+    localStorage.setItem(
+      ELocalStorage.MY_LIST,
+      JSON.stringify(this.#setListItems())
+    );
+  }
+
   getInputAndAddItem(value: IListItems): void {
     localStorage.setItem(
-      '@my-list',
+      ELocalStorage.MY_LIST,
       JSON.stringify([...this.#setListItems(), value])
     );
     this.#setListItems.set(this.#parseItems());
@@ -51,7 +60,7 @@ export class ListComponent {
       return oldValue;
     });
 
-    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()));
+    this.#updateLocalStorage();
   }
 
   updateItemText(newItem: { id: string; value: string }) {
@@ -66,19 +75,19 @@ export class ListComponent {
       return oldValue;
     });
 
-    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()));
+    this.#updateLocalStorage();
   }
 
-  deleteItemText(id: string): void {
+  deleteItem(id: string): void {
     this.#setListItems.update((oldValue: IListItems[]) => {
       return oldValue.filter((res) => res.id !== id);
     });
 
-    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()));
+    this.#updateLocalStorage();
   }
 
   deleteAllItems(): void {
-    localStorage.removeItem('@my-list');
+    localStorage.removeItem(ELocalStorage.MY_LIST);
     this.#setListItems.set(this.#parseItems());
   }
 }
