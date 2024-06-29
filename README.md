@@ -153,7 +153,7 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057946)\] [12.5. Mais sobre](arquivomd)
 
 13. Projeto Prático: Lista de tarefas
-  - [13.1 a 13.21 - Configuração e desenvolvimento do projeto](arquivomd)
+  - [13.1 a 13.21 - Configuração e desenvolvimento do projeto: Lista de tarefas](arquivomd)
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835278)\] 13.1. Introdução
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835286)\] 13.2. Passos iniciais do projeto
     - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41835428)\] 13.3. Recursos

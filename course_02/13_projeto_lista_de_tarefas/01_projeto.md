@@ -1,14 +1,33 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 13.1 a 13.21 - Configuração e desenvolvimento do projeto
+## 13.1 a 13.21 - Configuração e desenvolvimento do projeto: Lista de tarefas
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Diretório de arquivos: [01_arquivos](./01_arquivos/)
 - Projetos
-  - [Projeto 1](./01_arquivos/proj_01/) [(iniciado em)](#131-introdução)
+  - [Projeto 1](./01_arquivos/proj_01/) [(iniciado em)](#132-passos-iniciais-do-projeto)
 - Conteúdo
-  - []()
-  - ...
+  - [13.1. Introdução](#131-introdução)
+  - [13.2. Passos iniciais do projeto](#132-passos-iniciais-do-projeto)
+  - [13.3. Recursos](#133-recursos)
+  - [13.4. Configurando reset scss](#134-configurando-reset-scss)
+  - [13.5. HTML - Componente PageList](#135-html---componente-pagelist)
+  - [13.6. CSS - Container e Buttons](#136-css---container-e-buttons)
+  - [13.7. CSS - Input label text](#137-css---input-label-text)
+  - [13.8. CSS - Componente PageList](#138-css---componente-pagelist)
+  - [13.9. TS - Componente PageList](#139-ts---componente-pagelist)
+  - [13.10. Novo componente - Input add item](#1310-novo-componente---input-add-item)
+  - [13.11. Persistindo dados no localstorage](#1311-persistindo-dados-no-localstorage)
+  - [13.12. Transitando dados entre componentes](#1312-transitando-dados-entre-componentes)
+  - [13.13. CSS - Input label text](#1313-css---input-label-text)
+  - [13.14. CSS - Componente PageList](#1314-css---componente-pagelist)
+  - [13.15. Criando e editando um novo componente input list item](#1315-criando-e-editando-um-novo-componente-input-list-item)
+  - [13.16. Filtrando os dados](#1316-filtrando-os-dados)
+  - [13.17. Update checked](#1317-update-checked)
+  - [13.18. Update value](#1318-update-value)
+  - [13.19. Delete Item](#1319-delete-item)
+  - [13.20. Melhorias no código](#1320-melhorias-no-código)
+  - [13.21. Sweet Alert 2](#1321-sweet-alert-2)
 
 ### 13.1. Introdução
 [[Topo]](#)<br />
@@ -152,7 +171,7 @@ Sem notas a adicionar.
 
 Esse será o componente principal. Após criá-lo, adicioná-lo como rota inicial no arquivo `app.routes.ts`
 
-**aoo.routes.ts**
+**app.routes.ts**
 ```typescript
 import { Routes } from '@angular/router';
 
