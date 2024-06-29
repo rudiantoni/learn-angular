@@ -21,11 +21,17 @@ export class InputListItemComponent {
     value: string;
   }>();
 
+  @Output() outputDeleteItemText = new EventEmitter<string>();
+
   updateItemCheckbox(id: string, checked: boolean): void {
     this.outputUpdateItemCheckbox.emit({ id, checked });
   }
 
   updateItemText(id: string, value: string): void {
     this.outputUpdateItemText.emit({ id, value });
+  }
+
+  deleteItemText(id: string): void {
+    this.outputDeleteItemText.emit(id);
   }
 }

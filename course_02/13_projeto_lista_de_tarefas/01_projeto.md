@@ -229,10 +229,10 @@ Sem notas a adicionar.
 
 Sem notas a adicionar.
 
-### (nome do vídeo, aula, etc)
+### 13.19. Delete Item
 [[Topo]](#)<br />
 
-
+Sem notas a adicionar.
 
 ### (nome do vídeo, aula, etc)
 [[Topo]](#)<br />

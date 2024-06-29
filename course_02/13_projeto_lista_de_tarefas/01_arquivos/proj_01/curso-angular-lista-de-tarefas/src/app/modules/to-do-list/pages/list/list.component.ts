@@ -39,11 +39,11 @@ export class ListComponent {
     });
   }
 
-  updateItemCheckbox(newItem: {id: string, checked: boolean}) {
+  updateItemCheckbox(newItem: { id: string; checked: boolean }) {
     this.#setListItems.update((oldValue: IListItems[]) => {
       oldValue.filter((res) => {
         if (res.id === newItem.id) {
-          res.checked = newItem.checked
+          res.checked = newItem.checked;
           return res;
         }
         return res;
@@ -51,14 +51,14 @@ export class ListComponent {
       return oldValue;
     });
 
-    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()))
+    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()));
   }
 
-  updateItemText(newItem: {id: string, value: string}) {
+  updateItemText(newItem: { id: string; value: string }) {
     this.#setListItems.update((oldValue: IListItems[]) => {
       oldValue.filter((res) => {
         if (res.id === newItem.id) {
-          res.value = newItem.value
+          res.value = newItem.value;
           return res;
         }
         return res;
@@ -66,12 +66,19 @@ export class ListComponent {
       return oldValue;
     });
 
-    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()))
+    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()));
+  }
+
+  deleteItemText(id: string): void {
+    this.#setListItems.update((oldValue: IListItems[]) => {
+      return oldValue.filter((res) => res.id !== id);
+    });
+
+    localStorage.setItem('@my-list', JSON.stringify(this.#setListItems()));
   }
 
   deleteAllItems(): void {
     localStorage.removeItem('@my-list');
     this.#setListItems.set(this.#parseItems());
   }
-
 }
