@@ -1,0 +1,50 @@
+<h2>Reactive forms</h2>
+
+<form [formGroup]="profileForm">
+  <label>
+    Nome:
+    <input type="text" formControlName="name" />
+  </label>
+  <div formGroupName="myStacks">
+    <label>
+      Front:
+      <input type="text" formControlName="front" />
+    </label>
+    <label>
+      Back:
+      <input type="text" formControlName="back" />
+    </label>
+  </div>
+
+  <label>
+    Comida favorita:
+    <input #newFood type="text" />
+  </label>
+  <button type="button" (click)="addMyFavoriteFoods(newFood.value)">
+    Adicionar comida
+  </button>
+
+  <div formArrayName="myFavoriteFoods">
+    @for(food of profileForm.value.myFavoriteFoods; track i; let i = $index) {
+    <label>{{ food }} <input type="text" [formControlName]="i" /><br /> </label>
+    }
+  </div>
+
+  <br />
+  <button type="button" (click)="update()">Atualizar</button>
+  <br />
+  <button type="button" (click)="updateName()">Atualizar nome</button>
+
+  <hr />
+  <div>
+    <p>name: {{ profileForm.value.name }}</p>
+    <p>myStacks.front: {{ profileForm.value.myStacks?.front }}</p>
+    <p>myStacks.back: {{ profileForm.value.myStacks?.back }}</p>
+    <div>
+      <p>myFavoriteFoods:</p>
+      @for(food of profileForm.value.myFavoriteFoods; track i; let i = $index) {
+      <p>{{ food }}</p>
+      }
+    </div>
+  </div>
+</form>
