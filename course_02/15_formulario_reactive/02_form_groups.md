@@ -7,7 +7,7 @@
 - Projetos
   - [Projeto 1](./02_arquivos/proj_01/) [(iniciado em)](#utilizando-formgroup)
 - Conteúdo
-  - [Utilizando Group](#utilizando-formgroup)
+  - [Utilizando FormGroup](#utilizando-formgroup)
 
 ### Utilizando FormGroup
 [[Topo]](#)<br />
