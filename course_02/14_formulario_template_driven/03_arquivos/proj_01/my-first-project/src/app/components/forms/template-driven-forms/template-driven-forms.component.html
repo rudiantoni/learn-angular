@@ -1,0 +1,63 @@
+<h2>Template driven forms</h2>
+<form>
+  <label>
+    Nome:
+    <input
+      type="text"
+      name="inputName"
+      #name="ngModel"
+      [ngModel]="name.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>name: {{name.value}}</p>
+  <p>valid: {{name.valid}}</p>
+  <p>dirty: {{name.dirty}}</p>
+  <p>touched: {{name.touched}}</p>
+  <hr />
+
+  <label>
+    Feminino:
+    <input
+      type="radio"
+      value="female"
+      name="radioSex"
+      #sex="ngModel"
+      [ngModel]="sex.value"
+      required
+    />
+  </label>
+
+  <label>
+    Masculino:
+    <input
+      type="radio"
+      value="male"
+      name="radioSex"
+      #sex="ngModel"
+      [ngModel]="sex.value"
+      required
+    />
+  </label>
+  
+  <label>
+    Outros:
+    <input
+      type="radio"
+      value="others"
+      name="radioSex"
+      #sex="ngModel"
+      [ngModel]="sex.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>name: {{sex.value}}</p>
+  <p>valid: {{sex.valid}}</p>
+  <p>dirty: {{sex.dirty}}</p>
+  <p>touched: {{sex.touched}}</p>
+  <hr />
+</form>
