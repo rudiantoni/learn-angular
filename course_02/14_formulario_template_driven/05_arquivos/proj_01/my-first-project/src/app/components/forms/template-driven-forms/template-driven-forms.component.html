@@ -1,0 +1,196 @@
+<h2>Template driven forms</h2>
+<form>
+  <h3>Input type text</h3>
+  <label>
+    Nome:
+    <input
+      type="text"
+      name="inputName"
+      #name="ngModel"
+      [ngModel]="name.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>value: {{ name.value }}</p>
+  <p>valid: {{ name.valid }}</p>
+  <p>dirty: {{ name.dirty }}</p>
+  <p>touched: {{ name.touched }}</p>
+  <hr />
+
+  <h3>Input type radio</h3>
+  <label>
+    Feminino:
+    <input
+      type="radio"
+      value="female"
+      name="radioSex"
+      #sex="ngModel"
+      [ngModel]="sex.value"
+      required
+    />
+  </label>
+
+  <label>
+    Masculino:
+    <input
+      type="radio"
+      value="male"
+      name="radioSex"
+      #sex="ngModel"
+      [ngModel]="sex.value"
+      required
+    />
+  </label>
+
+  <label>
+    Outros:
+    <input
+      type="radio"
+      value="others"
+      name="radioSex"
+      #sex="ngModel"
+      [ngModel]="sex.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>value: {{ sex.value }}</p>
+  <p>valid: {{ sex.valid }}</p>
+  <p>dirty: {{ sex.dirty }}</p>
+  <p>touched: {{ sex.touched }}</p>
+  <hr />
+
+  <h3>Input type checkbox</h3>
+
+  <label>
+    Angular:
+    <input
+      type="checkbox"
+      value="angular"
+      name="checkboxAngular"
+      #techAngular="ngModel"
+      [ngModel]="techAngular.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>value: {{ techAngular.value }}</p>
+  <p>valid: {{ techAngular.valid }}</p>
+  <p>dirty: {{ techAngular.dirty }}</p>
+  <p>touched: {{ techAngular.touched }}</p>
+  <hr />
+
+  <label>
+    Vue:
+    <input
+      type="checkbox"
+      value="vue"
+      name="checkboxVue"
+      #techVue="ngModel"
+      [ngModel]="techVue.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>value: {{ techVue.value }}</p>
+  <p>valid: {{ techVue.valid }}</p>
+  <p>dirty: {{ techVue.dirty }}</p>
+  <p>touched: {{ techVue.touched }}</p>
+  <hr />
+
+  <label>
+    React:
+    <input
+      type="checkbox"
+      value="react"
+      name="checkboxReact"
+      #techReact="ngModel"
+      [ngModel]="techReact.value"
+      required
+    />
+  </label>
+
+  <hr />
+  <p>value: {{ techReact.value }}</p>
+  <p>valid: {{ techReact.valid }}</p>
+  <p>dirty: {{ techReact.dirty }}</p>
+  <p>touched: {{ techReact.touched }}</p>
+  <hr />
+
+  <h3>Select - Modo Estático com valor nativo</h3>
+
+  <select name="foodStatic" #foodStatic="ngModel" ngModel>
+    <option value="">Selecione um alimento</option>
+    <option value="X-salada">X-salada</option>
+    <option value="X-bacon">X-bacon</option>
+    <option value="Coxinha">Coxinha</option>
+  </select>
+
+  <hr />
+  <p>value: {{ foodStatic.value }}</p>
+  <p>valid: {{ foodStatic.valid }}</p>
+  <p>dirty: {{ foodStatic.dirty }}</p>
+  <p>touched: {{ foodStatic.touched }}</p>
+  <hr />
+
+  <h3>Select - Modo Estático com objetos</h3>
+
+  <select name="foodStaticObj" #foodStaticObj="ngModel" ngModel>
+    <option value="">Selecione um alimento</option>
+    <option [ngValue]="{ nameFood: 'X-salada', price: 'R$ 10' }">
+      X-salada
+    </option>
+    <option [ngValue]="{ nameFood: 'X-bacon', price: 'R$ 11' }">X-bacon</option>
+    <option [ngValue]="{ nameFood: 'Coxinha', price: 'R$ 6' }">Coxinha</option>
+  </select>
+
+  <hr />
+  <p>value: {{ foodStaticObj.value }}</p>
+  <p>json value: {{ foodStaticObj.value | json }}</p>
+  <p>nameFood: {{ foodStaticObj.value?.nameFood }}</p>
+  <p>price: {{ foodStaticObj.value?.price }}</p>
+  <p>valid: {{ foodStaticObj.valid }}</p>
+  <p>dirty: {{ foodStaticObj.dirty }}</p>
+  <p>touched: {{ foodStaticObj.touched }}</p>
+  <hr />
+
+  <h3>Select - Modo Automático com valor nativo</h3>
+
+  <select name="foodAuto" #foodAuto="ngModel" ngModel>
+    <option value="">Selecione um alimento</option>
+    @for(item of listComidas(); track item) {
+    <option [value]="item.nameFood">{{ item.nameFood }}</option>
+    }
+  </select>
+
+  <hr />
+  <p>value: {{ foodAuto.value }}</p>
+  <p>valid: {{ foodAuto.valid }}</p>
+  <p>dirty: {{ foodAuto.dirty }}</p>
+  <p>touched: {{ foodAuto.touched }}</p>
+  <hr />
+
+  <h3>Select - Modo Automático com objetos</h3>
+
+  <select name="foodAutoObj" #foodAutoObj="ngModel" ngModel>
+    <option value="">Selecione um alimento</option>
+    @for(item of listComidas(); track item) {
+    <option [ngValue]="item">{{ item.nameFood }}</option>
+    }
+  </select>
+
+  <hr />
+  <p>value: {{ foodAutoObj.value }}</p>
+  <p>json value: {{ foodAutoObj.value | json }}</p>
+  <p>nameFood: {{ foodAutoObj.value?.nameFood }}</p>
+  <p>price: {{ foodAutoObj.value?.price }}</p>
+  <p>valid: {{ foodAutoObj.valid }}</p>
+  <p>dirty: {{ foodAutoObj.dirty }}</p>
+  <p>touched: {{ foodAutoObj.touched }}</p>
+  <hr />
+</form>
