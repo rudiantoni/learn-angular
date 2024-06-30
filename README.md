@@ -185,6 +185,19 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057028)\] [14.6. Form Submit](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057968)\] [14.7. Mais sobre](arquivomd)
 
+15. Reactive forms
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057076)\] [15.1. Form Control](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057084)\] [15.2. Form Groups](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057090)\] [15.3. Form Array](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057092)\] [15.4. Form Builder](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057096)\] [15.5. Acessos - value - valid - dirty - touched](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057102)\] [15.6. Validators](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057106)\] [15.7. Custom Validators](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057110)\] [15.8. Submit](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057986)\] [15.9. Mais sobre](arquivomd)
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
+
+
