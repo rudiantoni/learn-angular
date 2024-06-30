@@ -5,4 +5,4 @@
 
 - Diretório de arquivos: [01_arquivos](./01_arquivos/)
 - Projetos
-  - [Projeto 1](./01_arquivos/proj_01/) [(iniciado em)](#form-control)
+  - [Projeto 1](./01_arquivos/proj_01/)
