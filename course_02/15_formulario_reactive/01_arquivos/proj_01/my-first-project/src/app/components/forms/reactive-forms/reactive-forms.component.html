@@ -1,0 +1,10 @@
+<h2>Reactive forms</h2>
+
+<form>
+  <label>
+    Nome:
+    <input type="text" [formControl]="name" />
+  </label>
+  <p>{{ name.value }}</p>
+  <button type="button" (click)="updateName()">Atualizar nome</button>
+</form>
