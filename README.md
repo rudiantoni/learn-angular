@@ -196,6 +196,21 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057110)\] [15.8. Submit](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057986)\] [15.9. Mais sobre](arquivomd)
 
+16. Componentes avançados
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057122)\] [16.1. ng-content](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057132)\] [16.2. Host elements](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057138)\] [16.3. Ciclo de Vida](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057148)\] [16.4. Ciclo de Vida - OnChanges - OnInit](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057154)\] [16.5. DoCheck](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057158)\] [16.6. AfterViewInit e ViewChild](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057176)\] [16.7. AfterContentInit e ContentChild](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057180)\] [16.8. AfterContentChecked e AfterViewChecked](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057186)\] [16.9. OnDestroy e takeUntilDestroyed](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057194)\] [16.10. Change Detection](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057196)\] [16.11. schematics + tsconfig](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41058038)\] [16.12. Mais sobre](arquivomd)
+
+
 x. nome_secao
   - \[[Ref](link)\] [x.x. nome_aula](arquivomd)
   - \[[Ref](link)\] x.x. nome_aula
