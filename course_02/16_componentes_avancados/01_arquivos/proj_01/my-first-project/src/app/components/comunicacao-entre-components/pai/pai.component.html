@@ -1,0 +1,8 @@
+<h2>Comunicação entre Componentes</h2>
+
+<app-output (outputName)="receiveOutputName($event)" (outputNameSig)="outNameSig.set($event)" />
+
+<p>{{ outName }}</p>
+<p>{{ outNameSig() }}</p>
+
+<app-input nameA="Rudi Antoni - Name A" [nameB]="myName" [nameCSetter]="sendNameC()" />

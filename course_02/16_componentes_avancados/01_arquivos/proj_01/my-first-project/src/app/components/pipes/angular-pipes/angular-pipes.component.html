@@ -1,0 +1,35 @@
+<h2>Pipes</h2>
+
+<p>{{ currentDate() | date }}</p>
+
+<p>{{ currentDate() | date : "short" }}</p>
+
+<p>{{ currentDate() | date : "dd/MM/yyyy" }}</p>
+
+<p>{{ "rudi antoni" | uppercase }}</p>
+
+<p>{{ "RUDI ANTONI" | lowercase }}</p>
+
+<p>Obj sem JsonPipe: {{ obj() }}</p>
+<p>Obj com JsonPipe: {{ obj() | json }}</p>
+
+<p>LoadingData sem AsyncPipe: {{ loadingData$ }}</p>
+<p>LoadingData com AsyncPipe: {{ loadingData$ | async }}</p>
+
+<p>Currency: {{ 200.5 | currency }}</p>
+<p>Number: {{ 2000.554 | number }}</p>
+<p>Percent: {{ 0.2 | percent }}</p>
+
+<p>Currency: {{ 200.5 | currency : "BRL" }}</p>
+<p>Number: {{ 2000.554 | number : "1.0-2" }}</p>
+<p>Percent: {{ 0.2 | percent : "1.0-4" }}</p>
+
+<!--
+<p>
+  customString: {{ "Rudi Antoni" | customString : "arg1" : "arg2" : "arg3" }}
+</p>
+-->
+
+<p>customString: {{ "Rudi Antoni" | customString : "upper" }}</p>
+<p>customString: {{ "Rudi Antoni" | customString : "lower" }}</p>
+<p>customString: {{ "Rudi Antoni" | customString }}</p>
