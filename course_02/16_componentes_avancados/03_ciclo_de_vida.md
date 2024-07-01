@@ -1,6 +1,6 @@
 # Curso de Angular 2 (v17+) Typescript do Básico ao Avançado
 
-## 16.3. Ciclo de Vida 1
+## 16.3. Ciclo de Vida
 [[Home - Curso 2]](../../README.md#curso-2)<br />
 
 - Conteúdo
