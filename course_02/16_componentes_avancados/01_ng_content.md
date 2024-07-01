@@ -22,6 +22,7 @@ Isso é especialmente útil quando você deseja criar componentes reutilizáveis
 
 Você também pode definir diferentes seletores para alterar a ordem onde os elementos chamados aparecem dentro do seu componente através do `select`.
 
+Caso existam tags sem seletores, todas elas serão inseridas no local onde o `ng-content` sem seletor está posicionado.
 
 **No componente filho**
 
