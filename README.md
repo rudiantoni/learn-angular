@@ -199,8 +199,8 @@ Todos os comandos, quando não especificados, foram realizados em Linux. Leia at
 16. Componentes avançados
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057122)\] [16.1. ng-content](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057132)\] [16.2. Host elements](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057138)\] [16.3. Ciclo de Vida](arquivomd)
-  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057148)\] [16.4. Ciclo de Vida - OnChanges - OnInit](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057138)\] [16.3. Ciclo de Vida 1](arquivomd)
+  - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057148)\] [16.4. Ciclo de Vida 2](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057154)\] [16.5. DoCheck](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057158)\] [16.6. AfterViewInit e ViewChild](arquivomd)
   - \[[Ref](https://www.udemy.com/course/curso-de-angular/learn/lecture/41057176)\] [16.7. AfterContentInit e ContentChild](arquivomd)
