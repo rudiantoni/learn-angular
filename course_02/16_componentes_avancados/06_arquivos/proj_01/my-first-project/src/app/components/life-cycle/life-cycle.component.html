@@ -1,0 +1,12 @@
+<h2>Lifecycle</h2>
+
+<h3>OnChanges e OnInit</h3>
+<p>myNumber: {{ myNumber }}</p>
+
+<h3>DoCheck</h3>
+<p id="do-check-text">myText: {{ myText() }}</p>
+<button (click)="myText.set('Texto novo')">Alterar texto</button>
+
+<h3>AfterViewInit</h3>
+<p #content>Este é o conteúdo de texto que deve ser exibido no AfterViewInit</p>
+
