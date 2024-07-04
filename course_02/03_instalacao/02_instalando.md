@@ -46,5 +46,5 @@
 
 - É necessário possuir o NPM
 - Abrir um terminal e utilizar o comando: `npm install -g @angular/cli`
-- Após a instalação use o comando `ng -v` ou `ng help` para testar se a instalação está correta, sendo talvez necessário abrir um novo terminal.
+- Após a instalação use o comando `ng v` ou `ng help` para testar se a instalação está correta, sendo talvez necessário abrir um novo terminal.
   - Deve aparecer a versão atual do software, caso apareça algum erro, é porque houve falha na instalação.
